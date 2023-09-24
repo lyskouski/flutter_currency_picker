@@ -1,0 +1,26 @@
+name: flutter_currency_picker
+description: Flutter Currency Picker -- simple representation layer
+version: 0.0.1
+homepage: https://github.com/lyskouski/flutter_currency_picker
+repository: https://github.com/lyskouski/flutter_currency_picker
+issue_tracker: https://github.com/lyskouski/flutter_currency_picker/issues
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  generate: true
