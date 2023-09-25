@@ -12,12 +12,11 @@ import 'package:flutter_currency_picker/src/source/currency_list.dart';
 import 'package:intl/intl.dart';
 
 abstract class CurrencyProvider {
-  static final _currencies = HashMap<String?, Currency>();
-  static final List<Currency> _list = [];
+  // ignore: prefer_collection_literals
+  static final _currencies = LinkedHashMap<String, Currency>();
 
   static void _load(List<Currency> scope) {
     for (final currency in scope) {
-      _list.add(currency); //, flag: _toEmojiFlag(currency.flag)));
       _currencies[currency.code] = currency;
     }
   }
@@ -71,7 +70,7 @@ abstract class CurrencyProvider {
   // Get full list
   static List<Currency> getAll() {
     init();
-    return _list;
+    return _currencies.values.toList(growable: false);
   }
 
   // Find Currency from its code
