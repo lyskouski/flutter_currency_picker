@@ -68,24 +68,22 @@ class CurrencySelectorItem {
     }
     return Row(
       mainAxisAlignment: MainAxisAlignment.start,
-      crossAxisAlignment: CrossAxisAlignment.baseline,
       children: [
         SizedBox(
-          width: 32,
+          width: 42,
           child: item.flag != null ? Text(item.flag!) : null,
         ),
         Expanded(
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              Text(item.code),
-              Text(item.name),
+              Align(alignment: Alignment.topLeft, child: Text(item.code)),
+              Align(alignment: Alignment.topLeft, child: Text(item.name)),
             ],
           ),
         ),
         SizedBox(
           width: 32,
-          child: Text(item.symbol),
+          child: Center(child: Text(item.symbol)),
         ),
       ],
     );

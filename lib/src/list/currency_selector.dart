@@ -32,6 +32,8 @@ class CurrencySelector<K extends CurrencySelectorItem> extends StatefulWidget {
   final Color? fieldBackground;
   // Selector representation
   final CurrencySelectorType searchType;
+  // Indentation for selector
+  final EdgeInsets? indent;
 
   // SearchAnchor
   const CurrencySelector({
@@ -42,6 +44,7 @@ class CurrencySelector<K extends CurrencySelectorItem> extends StatefulWidget {
     this.hintStyle,
     this.headerHintStyle,
     this.fieldBackground,
+    this.indent,
   }) : searchType = CurrencySelectorType.searchAnchor;
 
   // SearchAnchor(isFullScreen: false)
@@ -53,6 +56,7 @@ class CurrencySelector<K extends CurrencySelectorItem> extends StatefulWidget {
     this.hintStyle,
     this.headerHintStyle,
     this.fieldBackground,
+    this.indent,
   }) : searchType = CurrencySelectorType.searchAnchorMin;
 
   // SearchAnchor.bar
@@ -64,6 +68,7 @@ class CurrencySelector<K extends CurrencySelectorItem> extends StatefulWidget {
     this.hintStyle,
     this.headerHintStyle,
     this.fieldBackground,
+    this.indent,
   }) : searchType = CurrencySelectorType.searchAnchorBar;
 
   @override
@@ -158,10 +163,10 @@ class CurrencySelectorState<T extends CurrencySelector,
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Expanded(
-              child: Align(
-                alignment: Alignment.centerLeft,
-                child: FractionalTranslation(
-                  translation: const Offset(0, 0.5),
+              child: Padding(
+                padding: widget.indent ?? EdgeInsets.zero,
+                child: Align(
+                  alignment: Alignment.centerLeft,
                   child: Text(
                     item?.toString() ?? widget.hintText ?? '...',
                     style: widget.hintStyle,
