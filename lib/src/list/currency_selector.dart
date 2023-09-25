@@ -119,19 +119,9 @@ class CurrencySelectorState<T extends CurrencySelector,
     K extends CurrencySelectorItem> extends State<T> {
   // Search controller
   final controller = SearchController();
-  // CurrencySelectorItem
-  late final K? item;
   // List<CurrencySelectorItem<Currency>>
   final list =
       CurrencyProvider.getAll().map((e) => K.toObject(e)).cast<K>().toList();
-
-  @override
-  void initState() {
-    item = widget.value != null
-        ? list.where((e) => e.equal(widget.value!)).firstOrNull
-        : null;
-    super.initState();
-  }
 
   @override
   void dispose() {
@@ -154,6 +144,9 @@ class CurrencySelectorState<T extends CurrencySelector,
 
   // Build selected
   Widget buildContainer(BuildContext context, SearchController controller) {
+    final item = widget.value != null
+        ? list.where((e) => e.equal(widget.value!)).firstOrNull
+        : null;
     return InkWell(
       onTap: onTap,
       child: Container(
@@ -169,7 +162,7 @@ class CurrencySelectorState<T extends CurrencySelector,
                   alignment: Alignment.centerLeft,
                   child: Text(
                     item?.toString() ?? widget.hintText ?? '...',
-                    style: widget.hintStyle,
+                    style: widget.value != null ? null : widget.hintStyle,
                   ),
                 ),
               ),

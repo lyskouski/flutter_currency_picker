@@ -1,6 +1,6 @@
 name: flutter_currency_picker
 description: Flutter Currency Picker -- simple representation layer (double to formatted number as String)
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/lyskouski/flutter_currency_picker
 repository: https://github.com/lyskouski/flutter_currency_picker
 issue_tracker: https://github.com/lyskouski/flutter_currency_picker/issues

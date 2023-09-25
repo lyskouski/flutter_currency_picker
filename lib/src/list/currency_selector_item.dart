@@ -5,8 +5,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_currency_picker/src/currency.dart';
 
-// Override search pattern for `CurrencySelectorItem`
-typedef CurrencySearchPattern = String Function(Currency input);
+// Override selected item' view layer for `SearchAnchor`
+typedef CurrencyViewPattern = String Function(Currency input);
 
 // Override `Currency`-view (Widget) for `SearchAnchor`
 typedef CurrencyListView = Widget Function(
@@ -18,15 +18,15 @@ typedef CurrencyListView = Widget Function(
 class CurrencySelectorItem {
   // Currency definition
   Currency item;
-  // Override search pattern
-  CurrencySearchPattern? searchPattern;
+  // Override view state
+  CurrencyViewPattern? selectionView;
   // Override `Currency`-view (Widget) for `SearchAnchor`
   CurrencyListView? listView;
 
   // Currency Item Constructor
   CurrencySelectorItem(
     this.item, {
-    this.searchPattern,
+    this.selectionView,
     this.listView,
   });
 
@@ -41,13 +41,11 @@ class CurrencySelectorItem {
   int get hashCode => int.parse(id.codeUnits.join(''));
 
   // Search pattern
-  String get name => searchPattern != null
-      ? searchPattern!(item)
-      : '${item.symbol} - ${item.name} (${item.code})';
+  String get name => '${item.symbol} - ${item.name} (${item.code})';
 
   @override
   // Convert Object to String
-  String toString() => name;
+  String toString() => selectionView != null ? selectionView!(item) : name;
 
   // Compare Object with a search pattern
   bool match(String search) =>

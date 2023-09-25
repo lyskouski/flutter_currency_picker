@@ -1,3 +1,7 @@
+## 0.1.1
+
+* Adjust URL to `Selector`-image example
+
 ## 0.1.0
 
 * Fix Selector items builder
