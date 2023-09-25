@@ -3,9 +3,9 @@
 // that can be found in the LICENSE file.
 
 import 'package:flutter/material.dart';
+import 'package:flutter_currency_picker/gen_l10n/app_localization.dart';
+import 'package:flutter_currency_picker/gen_l10n/app_localization_en.dart';
 import 'package:flutter_currency_picker/src/currency.dart';
-import 'package:flutter_gen/gen_l10n/app_localization.dart';
-import 'package:flutter_gen/gen_l10n/app_localization_en.dart';
 
 abstract class CurrencyDefaults {
   static Currency? defaultCurrency;

@@ -6,10 +6,10 @@ import 'dart:collection';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_currency_picker/flutter_currency_picker.dart';
+import 'package:flutter_currency_picker/gen_l10n/app_localization.dart';
 import 'package:flutter_currency_picker/src/source/crypto_list.dart';
 import 'package:flutter_currency_picker/src/source/currency_list.dart';
 import 'package:intl/intl.dart';
-import 'package:flutter_gen/gen_l10n/app_localization.dart';
 
 abstract class CurrencyProvider {
   static final _currencies = HashMap<String?, Currency>();
