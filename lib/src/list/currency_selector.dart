@@ -136,7 +136,7 @@ class CurrencySelectorState<T extends CurrencySelector,
 
   // Trigger callback for the changed state of selector
   void onChange(K value) {
-    widget.update(value.id);
+    widget.update(value.item);
     controller.closeView(null);
   }
 

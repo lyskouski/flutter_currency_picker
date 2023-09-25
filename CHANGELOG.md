@@ -1,3 +1,7 @@
+## 0.0.3
+
+* Fix Selector return state
+
 ## 0.0.2
 
 * Downgrade min SDK version
