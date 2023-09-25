@@ -35,7 +35,7 @@ void main() {
       ];
       for (var v in testCases) {
         test('$v', () {
-          expect(v.input.toCurrency(CurrencyProvider.find(v.code)), v.result);
+          expect(v.input.toCurrency(code: v.code), v.result);
         });
       }
     });
@@ -51,7 +51,10 @@ void main() {
       for (var v in testCases) {
         test('$v', () {
           final currency = CurrencyProvider.find(v.code);
-          expect(v.input.toCurrency(currency, false), v.result);
+          expect(
+            v.input.toCurrency(currency: currency, withPattern: false),
+            v.result,
+          );
         });
       }
     });
@@ -66,8 +69,7 @@ void main() {
       ];
       for (var v in testCases) {
         test('$v', () {
-          final currency = CurrencyProvider.find(v.code);
-          expect(v.input.toCompactCurrency(currency), v.result);
+          expect(v.input.toCompactCurrency(code: v.code), v.result);
         });
       }
     });
