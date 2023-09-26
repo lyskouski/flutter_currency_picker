@@ -24,6 +24,8 @@ class CurrencySelector<K extends CurrencySelectorItem> extends StatefulWidget {
   final Function update;
   // Hint text
   final String? hintText;
+  // Styling for the chosen value
+  final TextStyle? textStyle;
   // Hint style
   final TextStyle? hintStyle;
   // Header hint style
@@ -40,6 +42,7 @@ class CurrencySelector<K extends CurrencySelectorItem> extends StatefulWidget {
     super.key,
     required this.update,
     this.value,
+    this.textStyle,
     this.hintText,
     this.hintStyle,
     this.headerHintStyle,
@@ -52,6 +55,7 @@ class CurrencySelector<K extends CurrencySelectorItem> extends StatefulWidget {
     super.key,
     required this.update,
     this.value,
+    this.textStyle,
     this.hintText,
     this.hintStyle,
     this.headerHintStyle,
@@ -64,6 +68,7 @@ class CurrencySelector<K extends CurrencySelectorItem> extends StatefulWidget {
     super.key,
     required this.update,
     this.value,
+    this.textStyle,
     this.hintText,
     this.hintStyle,
     this.headerHintStyle,
@@ -162,7 +167,9 @@ class CurrencySelectorState<T extends CurrencySelector,
                   alignment: Alignment.centerLeft,
                   child: Text(
                     item?.toString() ?? widget.hintText ?? '...',
-                    style: widget.value != null ? null : widget.hintStyle,
+                    style: widget.value != null
+                        ? widget.textStyle
+                        : widget.hintStyle,
                   ),
                 ),
               ),

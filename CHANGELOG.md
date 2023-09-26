@@ -1,3 +1,7 @@
+# 0.1.2
+
+* Configure style for selected value (`textStyle`)
+
 ## 0.1.1
 
 * Adjust URL to `Selector`-image example
