@@ -1,3 +1,7 @@
+# 1.0.1
+
+* Update Sample
+
 # 1.0.0
 
 * Improve value binding (`NoSuchMethodError: method not found: 'a' on null | js_primitives.dart`) 
