@@ -166,7 +166,7 @@ class CurrencySelectorState<T extends CurrencySelector,
                 child: Align(
                   alignment: Alignment.centerLeft,
                   child: Text(
-                    item?.toString() ?? widget.hintText ?? '...',
+                    item != null ? item.toString() : widget.hintText ?? '...',
                     style: widget.value != null
                         ? widget.textStyle
                         : widget.hintStyle,

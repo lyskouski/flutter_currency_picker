@@ -1,3 +1,7 @@
+# 1.0.0
+
+* Improve value binding (`NoSuchMethodError: method not found: 'a' on null | js_primitives.dart`) 
+
 # 0.1.2
 
 * Configure style for selected value (`textStyle`)

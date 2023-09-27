@@ -5,7 +5,9 @@
 
 Representation layer of conversion `number` to a currency as `string`. Native 
 selector extension for Currency Selector with a dependency injection (list 
-representation layer) approach.
+representation layer) approach, and localization support.
+
+https://pub.dev/packages/flutter_currency_picker
 
 ## Converter
 
@@ -27,6 +29,23 @@ CurrencyDefaults.labels = AppLocalizationsDe();
 ```
 
 ## Selector
+
+```dart
+Currency? currency;
+
+@override
+Widget build(BuildContext context) {
+  return CurrencySelector(
+    value: currency?.code,
+    hintStyle: Theme.of(this).textTheme.copyWith(
+      color: textTheme.headlineSmall?.color!.withOpacity(0.4),
+      overflow: TextOverflow.ellipsis,
+    ),
+    fieldBackground: Theme.of(this).colorScheme.onBackground.withOpacity(0.1),
+    update: (value) => setState(() => currency = value),
+  );
+}
+```
 
 ![Selector Sample](https://raw.githubusercontent.com/lyskouski/flutter_currency_picker/main/example/selector.png)
 
