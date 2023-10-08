@@ -1,3 +1,7 @@
+# 1.0.2
+
+* Add `Tile` color (tileColor) to differentiate odd/even tiles
+
 # 1.0.1
 
 * Update Sample

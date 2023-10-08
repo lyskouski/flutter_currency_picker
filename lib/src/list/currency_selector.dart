@@ -24,6 +24,8 @@ class CurrencySelector<K extends CurrencySelectorItem> extends StatefulWidget {
   final Function update;
   // Hint text
   final String? hintText;
+  // Highlight odd Tiles with defined color
+  final Color? tileColor;
   // Styling for the chosen value
   final TextStyle? textStyle;
   // Hint style
@@ -43,6 +45,7 @@ class CurrencySelector<K extends CurrencySelectorItem> extends StatefulWidget {
     required this.update,
     this.value,
     this.textStyle,
+    this.tileColor,
     this.hintText,
     this.hintStyle,
     this.headerHintStyle,
@@ -56,6 +59,7 @@ class CurrencySelector<K extends CurrencySelectorItem> extends StatefulWidget {
     required this.update,
     this.value,
     this.textStyle,
+    this.tileColor,
     this.hintText,
     this.hintStyle,
     this.headerHintStyle,
@@ -69,6 +73,7 @@ class CurrencySelector<K extends CurrencySelectorItem> extends StatefulWidget {
     required this.update,
     this.value,
     this.textStyle,
+    this.tileColor,
     this.hintText,
     this.hintStyle,
     this.headerHintStyle,
@@ -187,12 +192,20 @@ class CurrencySelectorState<T extends CurrencySelector,
   // Generate list of items for selection
   FutureOr<Iterable<Widget>> buildList(
       BuildContext context, SearchController controller) {
-    return list.where((e) => e.match(controller.text)).map(
-          (e) => ListTile(
-            title: e.build(context),
-            onTap: () => onChange(e),
-          ),
-        );
+    final result = <Widget>[];
+    list
+        .where((e) => e.match(controller.text))
+        .toList()
+        .asMap()
+        .forEach((index, e) {
+      result.add(ListTile(
+        title: e.build(context),
+        tileColor: index % 2 == 0 ? widget.tileColor?.withOpacity(0.05) : null,
+        hoverColor: widget.tileColor?.withOpacity(0.15),
+        onTap: () => onChange(e),
+      ));
+    });
+    return result;
   }
 
   @override
