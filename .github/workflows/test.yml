@@ -23,7 +23,9 @@ jobs:
       - run: flutter --version
 
       - name: Install Dependencies
-        run: flutter pub get
+        run: |
+          flutter pub get          
+          dart run build_runner build
 
       - name: Verify Formatting
         if: matrix.os == 'ubuntu-latest'
@@ -33,9 +35,7 @@ jobs:
         run: flutter analyze
 
       - name: Run Tests
-        run: |
-          dart run build_runner build
-          flutter test --coverage > test_execution.log
+        run: flutter test --coverage > test_execution.log
         
       - name: Generate Golden Images
         if: ${{ failure() }}
