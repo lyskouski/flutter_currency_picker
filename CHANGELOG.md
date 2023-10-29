@@ -1,3 +1,7 @@
+# 1.1.4
+
+* Reflect to localization change (on fly)
+
 # 1.1.3
 
 * Fix pipeline failure
