@@ -10,6 +10,7 @@ import 'package:flutter_currency_picker/gen_l10n/app_localization.dart';
 import 'package:flutter_currency_picker/src/source/crypto_list.dart';
 import 'package:flutter_currency_picker/src/source/currency_list.dart';
 import 'package:intl/intl.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 abstract class CurrencyProvider {
   // ignore: prefer_collection_literals
@@ -42,7 +43,8 @@ abstract class CurrencyProvider {
   static void initFromContext(BuildContext context,
       {bool classic = true, bool crypto = true}) {
     CurrencyDefaults.defaultLocale = Localizations.localeOf(context);
-    CurrencyDefaults.labels = AppLocalizations.of(context)!;
+    CurrencyDefaults.labels =
+        lookupAppLocalizations(CurrencyDefaults.defaultLocale!);
     _currencies.clear();
     init(
       locale: CurrencyDefaults.defaultLocale,
@@ -65,6 +67,7 @@ abstract class CurrencyProvider {
     }
     CurrencyDefaults.defaultCurrency ??=
         identify(CurrencyDefaults.defaultLocale!);
+    SharedPreferences.getInstance().then((v) => CurrencyDefaults.cache = v);
   }
 
   // Get top-preferences

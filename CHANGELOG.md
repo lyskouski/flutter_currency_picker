@@ -1,3 +1,7 @@
+# 1.1.1
+
+* Fix localization from context
+
 # 1.1.0
 
 * Add locales' support: en, be, uk, pl, pt, fr, de
