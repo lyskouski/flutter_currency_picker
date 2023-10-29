@@ -67,10 +67,43 @@ abstract class CurrencyProvider {
         identify(CurrencyDefaults.defaultLocale!);
   }
 
-  // Get full list
+  // Get top-preferences
+  static List<String>? getTop() =>
+      CurrencyDefaults.cache?.getStringList(CurrencyDefaults.cacheName);
+
+  // Add currency to top-preferences
+  static void pin(Currency value) => CurrencyDefaults.cache?.setStringList(
+        CurrencyDefaults.cacheName,
+        [value.code, ...getTop() ?? []],
+      );
+
+  // Remove currency from top-preferences
+  static void unpin(Currency value) => CurrencyDefaults.cache?.setStringList(
+        CurrencyDefaults.cacheName,
+        [...getTop() ?? []]..remove(value.code),
+      );
+
+  /// Get full list
+  // By taking into account localization specifics
+  // And pinned list of currencies
   static List<Currency> getAll() {
     init();
-    return _currencies.values.toList(growable: false);
+    final result = _currencies.values.toList(growable: false);
+    if (CurrencyDefaults.defaultLocale?.languageCode == 'de') {
+      result.sort((a, b) => a.name.compareTo(b.name));
+    }
+    final pin = getTop();
+    if (pin != null) {
+      result.sort((a, b) {
+        final ia = pin.indexOf(a.code);
+        final ib = pin.indexOf(b.code);
+        if (ia == ib) {
+          return 0;
+        }
+        return ia > ib ? -1 : 1;
+      });
+    }
+    return result;
   }
 
   // Find Currency from its code
