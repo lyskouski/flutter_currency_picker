@@ -1,3 +1,8 @@
+# 1.1.0
+
+* Add locales' support: en, be, uk, pl, pt, fr, de
+* API to pin items `CurrencyProvider.pin`, `CurrencyProvider.unpin` 
+
 # 1.0.2
 
 * Add `Tile` color (tileColor) to differentiate odd/even tiles

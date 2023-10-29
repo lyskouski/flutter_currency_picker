@@ -71,6 +71,9 @@ abstract class CurrencyProvider {
   static List<String>? getTop() =>
       CurrencyDefaults.cache?.getStringList(CurrencyDefaults.cacheName);
 
+  // Check the state of currency
+  static bool isPinned(Currency value) => (getTop() ?? []).contains(value.code);
+
   // Add currency to top-preferences
   static void pin(Currency value) => CurrencyDefaults.cache?.setStringList(
         CurrencyDefaults.cacheName,

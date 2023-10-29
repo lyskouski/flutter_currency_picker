@@ -4,6 +4,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_currency_picker/src/currency.dart';
+import 'package:flutter_currency_picker/src/currency_provider.dart';
 
 // Override selected item' view layer for `SearchAnchor`
 typedef CurrencyViewPattern = String Function(Currency input);
@@ -59,6 +60,26 @@ class CurrencySelectorItem {
   // Compare `id` with taken value
   bool equal(String val) => id == val;
 
+  void manageState(BuildContext context, Currency item) {
+    final isPinned = CurrencyProvider.isPinned(item);
+    if (isPinned) {
+      CurrencyProvider.unpin(item);
+    } else {
+      CurrencyProvider.pin(item);
+    }
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Row(
+          children: [
+            Icon(isPinned ? Icons.star_border : Icons.star),
+            const SizedBox(width: 4),
+            Text(item.name),
+          ],
+        ),
+      ),
+    );
+  }
+
   // Representation layer for selector
   Widget? build(BuildContext context) {
     if (listView != null) {
@@ -82,6 +103,16 @@ class CurrencySelectorItem {
         SizedBox(
           width: 32,
           child: Center(child: Text(item.symbol)),
+        ),
+        SizedBox(
+          width: 12,
+          child: InkWell(
+            onTap: () => manageState(context, item),
+            child: Icon(
+              CurrencyProvider.isPinned(item) ? Icons.star : Icons.star_border,
+              color: Theme.of(context).colorScheme.primary.withOpacity(0.5),
+            ),
+          ),
         ),
       ],
     );
