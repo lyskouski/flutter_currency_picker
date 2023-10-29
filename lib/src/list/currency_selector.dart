@@ -130,7 +130,7 @@ class CurrencySelectorState<T extends CurrencySelector,
   // Search controller
   final controller = SearchController();
   // List<CurrencySelectorItem<Currency>>
-  get list =>
+  List<K> get list =>
       CurrencyProvider.getAll().map((e) => K.toObject(e)).cast<K>().toList();
 
   @override

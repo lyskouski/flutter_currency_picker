@@ -1,3 +1,7 @@
+# 1.1.5
+
+* Fix `type '(dynamic) => dynamic'``
+
 # 1.1.4
 
 * Reflect to localization change (on fly)
