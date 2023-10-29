@@ -20,7 +20,9 @@ jobs:
           cache: true
 
       - name: Install Dependencies
-        run: flutter pub get
+        run: |
+          flutter pub get
+          dart run build_runner build
 
       - name: Publish - dry run
         run: flutter pub publish --dry-run
