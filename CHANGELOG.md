@@ -1,3 +1,7 @@
+# 1.1.2
+
+* Resolve localization init
+
 # 1.1.1
 
 * Fix localization from context
