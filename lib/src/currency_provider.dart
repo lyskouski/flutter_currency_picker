@@ -40,9 +40,9 @@ abstract class CurrencyProvider {
   }
 
   // Bind labels localization from Context
-  static void initFromContext(BuildContext context,
-      {bool classic = true, bool crypto = true}) {
-    CurrencyDefaults.defaultLocale = Localizations.localeOf(context);
+  static void initFromContext(BuildContext? context,
+      {bool classic = true, bool crypto = true, Locale? locale}) {
+    CurrencyDefaults.defaultLocale = locale ?? Localizations.localeOf(context!);
     CurrencyDefaults.labels =
         lookupAppLocalizations(CurrencyDefaults.defaultLocale!);
     _currencies.clear();
@@ -60,14 +60,16 @@ abstract class CurrencyProvider {
     }
     CurrencyDefaults.defaultLocale ??= locale ?? const Locale('en', 'US');
     if (classic) {
-      _load(currencyList);
+      _load(currencyList(CurrencyDefaults.labels));
     }
     if (crypto) {
       _load(cryptoList.map(_convertCrypto).toList());
     }
     CurrencyDefaults.defaultCurrency ??=
         identify(CurrencyDefaults.defaultLocale!);
-    SharedPreferences.getInstance().then((v) => CurrencyDefaults.cache = v);
+    if (CurrencyDefaults.cache == null) {
+      SharedPreferences.getInstance().then((v) => CurrencyDefaults.cache = v);
+    }
   }
 
   // Get top-preferences
@@ -100,11 +102,15 @@ abstract class CurrencyProvider {
     }
     final pin = getTop();
     if (pin != null) {
+      final clone = result.map((v) => v.code).toList();
       result.sort((a, b) {
+        if (a.code == b.code) {
+          return 0;
+        }
         final ia = pin.indexOf(a.code);
         final ib = pin.indexOf(b.code);
         if (ia == ib) {
-          return 0;
+          return clone.indexOf(a.code) > clone.indexOf(b.code) ? 1 : -1;
         }
         return ia > ib ? -1 : 1;
       });

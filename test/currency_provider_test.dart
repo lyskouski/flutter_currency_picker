@@ -3,7 +3,7 @@
 // that can be found in the LICENSE file.
 
 import 'package:flutter/material.dart';
-import 'package:flutter_currency_picker/flutter_currency_picker.dart';
+import 'package:flutter_currency_picker/src/currency_defaults.dart';
 import 'package:flutter_currency_picker/src/currency_provider.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
@@ -14,9 +14,11 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'currency_provider_test.mocks.dart';
 
 void main() {
-  setUp(() => CurrencyDefaults.cache = MockSharedPreferences());
-
   group('CurrencyProvider', () {
+    setUp(() => CurrencyDefaults.cache = MockSharedPreferences());
+    tearDown(() =>
+        CurrencyProvider.initFromContext(null, locale: const Locale('en')));
+
     group('findByCode', () {
       final testCases = [
         (code: null, result: null),
@@ -36,6 +38,14 @@ void main() {
       expect(result.isNotEmpty, true);
     });
 
+    test('initFromContext', () {
+      final result = CurrencyProvider.getAll().first;
+      expect(result.name, 'United States Dollar');
+      CurrencyProvider.initFromContext(null, locale: const Locale('pl'));
+      final locale = CurrencyProvider.getAll().first;
+      expect(locale.name, 'Dolar amerykański');
+    });
+
     test('pin', () {
       final result = CurrencyProvider.getAll().first;
       expect(result.code, 'USD');
@@ -44,10 +54,12 @@ void main() {
       final order = CurrencyProvider.getAll().first;
       expect(order.code, 'AFN');
 
+      CurrencyDefaults.defaultLocale = const Locale('en');
       when(CurrencyDefaults.cache!.getStringList(CurrencyDefaults.cacheName))
           .thenReturn(['PLN']);
-      final pin = CurrencyProvider.getAll().first;
-      expect(pin.code, 'PLN');
+      final pin = CurrencyProvider.getAll();
+      expect(pin.first.code, 'PLN');
+      expect(pin[1].code, 'USD');
     });
   });
 }
