@@ -7,10 +7,16 @@ import 'package:flutter_currency_picker/src/currency_defaults.dart';
 import 'package:flutter_currency_picker/src/currency_provider.dart';
 import 'package:flutter_currency_picker/src/extension/currency_ext.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:mockito/annotations.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
+@GenerateNiceMocks([MockSpec<SharedPreferences>()])
+import 'currency_ext_test.mocks.dart';
 
 void main() {
   group('CurrencyExt', () {
     setUp(() {
+      CurrencyDefaults.cache = MockSharedPreferences();
       CurrencyDefaults.defaultCurrency = (
         code: 'USD',
         name: 'United States Dollar',

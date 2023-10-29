@@ -1,3 +1,7 @@
+# 1.1.3
+
+* Fix pipeline failure
+
 # 1.1.2
 
 * Resolve localization init
