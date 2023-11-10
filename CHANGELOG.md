@@ -1,3 +1,7 @@
+# 1.1.6
+
+* Update README.md
+
 # 1.1.5
 
 * Fix `type '(dynamic) => dynamic'``
