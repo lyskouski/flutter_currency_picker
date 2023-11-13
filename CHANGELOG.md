@@ -1,3 +1,7 @@
+# 1.1.7
+
+* Extend by selector's label (`withLabel`, `labelText`, `labelStyle`)
+
 # 1.1.6
 
 * Update README.md

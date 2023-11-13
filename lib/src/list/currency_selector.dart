@@ -38,6 +38,12 @@ class CurrencySelector<K extends CurrencySelectorItem> extends StatefulWidget {
   final CurrencySelectorType searchType;
   // Indentation for selector
   final EdgeInsets? indent;
+  // Show nested tooltip
+  final bool withLabel;
+  // Text of nested tooltip
+  final String? labelText;
+  // Label style
+  final TextStyle? labelStyle;
 
   // SearchAnchor
   const CurrencySelector({
@@ -51,6 +57,9 @@ class CurrencySelector<K extends CurrencySelectorItem> extends StatefulWidget {
     this.headerHintStyle,
     this.fieldBackground,
     this.indent,
+    this.labelStyle,
+    this.labelText,
+    this.withLabel = false,
   }) : searchType = CurrencySelectorType.searchAnchor;
 
   // SearchAnchor(isFullScreen: false)
@@ -65,6 +74,9 @@ class CurrencySelector<K extends CurrencySelectorItem> extends StatefulWidget {
     this.headerHintStyle,
     this.fieldBackground,
     this.indent,
+    this.labelStyle,
+    this.labelText,
+    this.withLabel = false,
   }) : searchType = CurrencySelectorType.searchAnchorMin;
 
   // SearchAnchor.bar
@@ -79,6 +91,9 @@ class CurrencySelector<K extends CurrencySelectorItem> extends StatefulWidget {
     this.headerHintStyle,
     this.fieldBackground,
     this.indent,
+    this.labelStyle,
+    this.labelText,
+    this.withLabel = false,
   }) : searchType = CurrencySelectorType.searchAnchorBar;
 
   @override
@@ -157,6 +172,13 @@ class CurrencySelectorState<T extends CurrencySelector,
     final item = widget.value != null
         ? list.where((e) => e.equal(widget.value!)).firstOrNull
         : null;
+    final textStyle =
+        widget.value != null ? widget.textStyle : widget.hintStyle;
+    final labelStyle = widget.labelStyle ?? widget.hintStyle;
+    final text = Text(
+      item != null ? item.toString() : widget.hintText ?? '...',
+      style: textStyle,
+    );
     return InkWell(
       onTap: onTap,
       child: Container(
@@ -170,12 +192,16 @@ class CurrencySelectorState<T extends CurrencySelector,
                 padding: widget.indent ?? EdgeInsets.zero,
                 child: Align(
                   alignment: Alignment.centerLeft,
-                  child: Text(
-                    item != null ? item.toString() : widget.hintText ?? '...',
-                    style: widget.value != null
-                        ? widget.textStyle
-                        : widget.hintStyle,
-                  ),
+                  child: widget.withLabel
+                      ? Column(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(widget.labelText ?? '...', style: labelStyle),
+                            text,
+                          ],
+                        )
+                      : text,
                 ),
               ),
             ),
