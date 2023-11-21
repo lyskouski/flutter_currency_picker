@@ -1,3 +1,7 @@
+# 1.1.8
+
+* Return EN locale instead of a failure for unsupported localization
+
 # 1.1.7
 
 * Extend by selector's label (`withLabel`, `labelText`, `labelStyle`)
