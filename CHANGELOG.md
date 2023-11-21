@@ -1,3 +1,7 @@
+# 1.2.1
+
+* Update search engine
+
 # 1.2.0
 
 * Enable localization search, add Chinese (Simplified) locale
