@@ -16,6 +16,7 @@ import 'app_localization_fr.dart';
 import 'app_localization_pl.dart';
 import 'app_localization_pt.dart';
 import 'app_localization_uk.dart';
+import 'app_localization_zh.dart';
 
 /// Callers can lookup localized strings with an instance of AppLocalizations
 /// returned by `AppLocalizations.of(context)`.
@@ -109,6 +110,7 @@ abstract class AppLocalizations {
     Locale('pt'),
     Locale('fr'),
     Locale('de'),
+    Locale('zh'),
     Locale('be', 'EU'),
     Locale('pt', 'BR')
   ];
@@ -809,7 +811,8 @@ class _AppLocalizationsDelegate
         'fr',
         'pl',
         'pt',
-        'uk'
+        'uk',
+        'zh'
       ].contains(locale.languageCode);
 
   @override
@@ -853,6 +856,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsPt();
     case 'uk':
       return AppLocalizationsUk();
+    case 'zh':
+      return AppLocalizationsZh();
   }
 
   return AppLocalizationsEn();

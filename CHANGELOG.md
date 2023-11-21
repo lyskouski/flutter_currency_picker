@@ -1,3 +1,7 @@
+# 1.2.0
+
+* Enable localization search, add Chinese (Simplified) locale
+
 # 1.1.8
 
 * Return EN locale instead of a failure for unsupported localization

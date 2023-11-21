@@ -56,10 +56,11 @@ void main() {
 
       CurrencyDefaults.defaultLocale = const Locale('en');
       when(CurrencyDefaults.cache!.getStringList(CurrencyDefaults.cacheName))
-          .thenReturn(['PLN']);
+          .thenReturn(['PLN', 'EUR']);
       final pin = CurrencyProvider.getAll();
-      expect(pin.first.code, 'PLN');
-      expect(pin[1].code, 'USD');
+      expect(pin[0].code, 'PLN');
+      expect(pin[1].code, 'EUR');
+      expect(pin[2].code, 'USD');
     });
   });
 }

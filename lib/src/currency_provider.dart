@@ -112,6 +112,9 @@ abstract class CurrencyProvider {
         if (ia == ib) {
           return clone.indexOf(a.code) > clone.indexOf(b.code) ? 1 : -1;
         }
+        if (ia >= 0 && ib >= 0) {
+          return ia > ib ? 1 : -1;
+        }
         return ia > ib ? -1 : 1;
       });
     }

@@ -2,8 +2,10 @@
 // Use of this source code is governed by a MIT license
 // that can be found in the LICENSE file.
 
+import 'package:dart_intl_search/dart_intl_search.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_currency_picker/src/currency.dart';
+import 'package:flutter_currency_picker/src/currency_defaults.dart';
 import 'package:flutter_currency_picker/src/currency_provider.dart';
 
 // Override selected item' view layer for `SearchAnchor`
@@ -49,8 +51,8 @@ class CurrencySelectorItem {
   String toString() => selectionView != null ? selectionView!(item) : name;
 
   // Compare Object with a search pattern
-  bool match(String search) =>
-      name.toLowerCase().contains(search.toLowerCase());
+  bool match(String search) => search.isPartOf(
+      name, CurrencyDefaults.defaultLocale ?? const Locale('en'));
 
   @override
   // Equal comparison
