@@ -1,3 +1,7 @@
+# 1.2.2
+
+* Update search engine (with downgraded SDK)
+
 # 1.2.1
 
 * Update search engine
