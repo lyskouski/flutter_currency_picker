@@ -1,3 +1,7 @@
+# 1.3.1
+
+* Adjust SE to lowercase
+
 # 1.3.0
 
 * Add Hindi locale
