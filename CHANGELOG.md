@@ -1,3 +1,7 @@
+# 1.3.0
+
+* Add Hindi locale
+
 # 1.2.2
 
 * Update search engine (with downgraded SDK)
