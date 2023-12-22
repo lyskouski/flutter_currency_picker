@@ -349,7 +349,7 @@ class AppLocalizationsBe extends AppLocalizations {
 
 /// The translations for Belarusian, as used in European Union (`be_EU`).
 class AppLocalizationsBeEu extends AppLocalizationsBe {
-  AppLocalizationsBeEu(): super('be_EU');
+  AppLocalizationsBeEu() : super('be_EU');
 
   @override
   String get currencyUSD => 'Daliar ZŠA';

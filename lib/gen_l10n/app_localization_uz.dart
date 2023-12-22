@@ -152,7 +152,8 @@ class AppLocalizationsUz extends AppLocalizations {
   String get currencyBOB => 'Boliviya Boliviyano';
 
   @override
-  String get currencyBAM => 'Bosniya va Gertsegovina konvertatsiya qilinadigan belgisi';
+  String get currencyBAM =>
+      'Bosniya va Gertsegovina konvertatsiya qilinadigan belgisi';
 
   @override
   String get currencyBWP => 'Botsvana pulasi';
