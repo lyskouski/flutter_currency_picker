@@ -847,6 +847,17 @@ List<Currency> currencyList(AppLocalizations labels) {
       symbolOnLeft: false,
     ),
     (
+      code: 'UZS',
+      name: CurrencyDefaults.labels.currencyUZS,
+      symbol: 'sum',
+      flag: '🇯🇵',
+      decimalDigits: 0,
+      thousandsSeparator: ',',
+      decimalSeparator: '.',
+      hasSpace: false,
+      symbolOnLeft: false,
+    ),
+    (
       code: 'LAK',
       name: CurrencyDefaults.labels.currencyLAK,
       symbol: '₭',

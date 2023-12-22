@@ -233,6 +233,9 @@ class AppLocalizationsBe extends AppLocalizations {
   String get currencyKGS => 'Кыргызскі сом';
 
   @override
+  String get currencyUZS => 'Узбекскі сум';
+
+  @override
   String get currencyLAK => 'Лаоскі кіп';
 
   @override
@@ -346,7 +349,7 @@ class AppLocalizationsBe extends AppLocalizations {
 
 /// The translations for Belarusian, as used in European Union (`be_EU`).
 class AppLocalizationsBeEu extends AppLocalizationsBe {
-  AppLocalizationsBeEu() : super('be_EU');
+  AppLocalizationsBeEu(): super('be_EU');
 
   @override
   String get currencyUSD => 'Daliar ZŠA';
@@ -575,6 +578,9 @@ class AppLocalizationsBeEu extends AppLocalizationsBe {
 
   @override
   String get currencyKGS => 'Kyrhyzski som';
+
+  @override
+  String get currencyUZS => 'Uzbiekski sum';
 
   @override
   String get currencyLAK => 'Laoski kip';

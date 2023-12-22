@@ -233,6 +233,9 @@ class AppLocalizationsPt extends AppLocalizations {
   String get currencyKGS => 'Som do Quirguistão';
 
   @override
+  String get currencyUZS => 'Soma do Uzbequistão';
+
+  @override
   String get currencyLAK => 'Kip do Laos';
 
   @override
@@ -346,7 +349,7 @@ class AppLocalizationsPt extends AppLocalizations {
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
 class AppLocalizationsPtBr extends AppLocalizationsPt {
-  AppLocalizationsPtBr() : super('pt_BR');
+  AppLocalizationsPtBr(): super('pt_BR');
 
   @override
   String get currencyUSD => 'Dólar dos Estados Unidos';
@@ -575,6 +578,9 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get currencyKGS => 'Som do Quirguistão';
+
+  @override
+  String get currencyUZS => 'Soma do Uzbequistão';
 
   @override
   String get currencyLAK => 'Kip do Laos';

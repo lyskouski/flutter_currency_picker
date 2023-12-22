@@ -233,6 +233,9 @@ class AppLocalizationsPl extends AppLocalizations {
   String get currencyKGS => 'Som Kirgiski';
 
   @override
+  String get currencyUZS => 'Suma Uzbecki';
+
+  @override
   String get currencyLAK => 'Laos Kip';
 
   @override

@@ -573,6 +573,12 @@ abstract class AppLocalizations {
   /// **'Kyrgyzstani som'**
   String get currencyKGS;
 
+  /// No description provided for @currencyUZS.
+  ///
+  /// In en, this message translates to:
+  /// **'Uzbekistani sum'**
+  String get currencyUZS;
+
   /// No description provided for @currencyLAK.
   ///
   /// In en, this message translates to:

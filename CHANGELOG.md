@@ -1,3 +1,7 @@
+# 1.3.2
+
+* Added Uzbekistani sum (UZS)
+
 # 1.3.1
 
 * Adjust SE to lowercase

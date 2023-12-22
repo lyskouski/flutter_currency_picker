@@ -230,7 +230,10 @@ class AppLocalizationsFr extends AppLocalizations {
   String get currencyKWD => 'Dinar koweïtien';
 
   @override
-  String get currencyKGS => 'som kirghize';
+  String get currencyKGS => 'Som Kirghize';
+
+  @override
+  String get currencyUZS => 'Somme Ouzbèke';
 
   @override
   String get currencyLAK => 'Kip du Laos';

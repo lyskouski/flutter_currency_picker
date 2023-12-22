@@ -233,6 +233,9 @@ class AppLocalizationsDe extends AppLocalizations {
   String get currencyKGS => 'Kirgisischer Som';
 
   @override
+  String get currencyUZS => 'Usbekische Summe';
+
+  @override
   String get currencyLAK => 'Laos Kip';
 
   @override
