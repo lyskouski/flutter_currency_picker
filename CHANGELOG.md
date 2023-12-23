@@ -1,3 +1,7 @@
+# 1.3.3
+
+* Fixed Uzbekistan flag
+
 # 1.3.2
 
 * Added Uzbekistani sum (UZS)

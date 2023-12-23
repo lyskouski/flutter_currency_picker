@@ -850,7 +850,7 @@ List<Currency> currencyList(AppLocalizations labels) {
       code: 'UZS',
       name: CurrencyDefaults.labels.currencyUZS,
       symbol: 'sum',
-      flag: '🇯🇵',
+      flag: '🇺🇿',
       decimalDigits: 0,
       thousandsSeparator: ',',
       decimalSeparator: '.',
