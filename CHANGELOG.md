@@ -1,3 +1,7 @@
+# 1.3.4
+
+* Added Persian locale
+
 # 1.3.3
 
 * Fixed Uzbekistan flag
