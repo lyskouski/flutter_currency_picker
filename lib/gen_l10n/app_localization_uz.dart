@@ -2,7 +2,7 @@ import 'app_localization.dart';
 
 /// The translations for Uzbek (`uz`).
 class AppLocalizationsUz extends AppLocalizations {
-  AppLocalizationsUz([String locale = 'uz']) : super(locale);
+  AppLocalizationsUz([super.locale = 'uz']);
 
   @override
   String get currencyUSD => 'Amerika Qo\'shma Shtatlari Dollari';

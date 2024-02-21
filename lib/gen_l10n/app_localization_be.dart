@@ -2,7 +2,7 @@ import 'app_localization.dart';
 
 /// The translations for Belarusian (`be`).
 class AppLocalizationsBe extends AppLocalizations {
-  AppLocalizationsBe([String locale = 'be']) : super(locale);
+  AppLocalizationsBe([super.locale = 'be']);
 
   @override
   String get currencyUSD => 'Даляр ЗША';

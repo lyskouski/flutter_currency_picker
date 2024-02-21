@@ -2,7 +2,7 @@ import 'app_localization.dart';
 
 /// The translations for French (`fr`).
 class AppLocalizationsFr extends AppLocalizations {
-  AppLocalizationsFr([String locale = 'fr']) : super(locale);
+  AppLocalizationsFr([super.locale = 'fr']);
 
   @override
   String get currencyUSD => 'Dollar américain';

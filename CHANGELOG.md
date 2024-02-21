@@ -1,3 +1,7 @@
+# 1.4.1
+
+* Fix by analyzer (flutter_lints: 3.0.1)
+
 # 1.4.0
 
 * Upgrade to 3.19 Flutter (0.19.0 intl)

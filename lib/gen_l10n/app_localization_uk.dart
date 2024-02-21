@@ -2,7 +2,7 @@ import 'app_localization.dart';
 
 /// The translations for Ukrainian (`uk`).
 class AppLocalizationsUk extends AppLocalizations {
-  AppLocalizationsUk([String locale = 'uk']) : super(locale);
+  AppLocalizationsUk([super.locale = 'uk']);
 
   @override
   String get currencyUSD => 'Долар США';

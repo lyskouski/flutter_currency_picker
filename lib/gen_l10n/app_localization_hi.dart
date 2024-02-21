@@ -2,7 +2,7 @@ import 'app_localization.dart';
 
 /// The translations for Hindi (`hi`).
 class AppLocalizationsHi extends AppLocalizations {
-  AppLocalizationsHi([String locale = 'hi']) : super(locale);
+  AppLocalizationsHi([super.locale = 'hi']);
 
   @override
   String get currencyUSD => 'संयुक्त राज्य अमेरिका डॉलर';

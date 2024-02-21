@@ -2,7 +2,7 @@ import 'app_localization.dart';
 
 /// The translations for Portuguese (`pt`).
 class AppLocalizationsPt extends AppLocalizations {
-  AppLocalizationsPt([String locale = 'pt']) : super(locale);
+  AppLocalizationsPt([super.locale = 'pt']);
 
   @override
   String get currencyUSD => 'Dólar dos Estados Unidos';

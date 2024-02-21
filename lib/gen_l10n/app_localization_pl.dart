@@ -2,7 +2,7 @@ import 'app_localization.dart';
 
 /// The translations for Polish (`pl`).
 class AppLocalizationsPl extends AppLocalizations {
-  AppLocalizationsPl([String locale = 'pl']) : super(locale);
+  AppLocalizationsPl([super.locale = 'pl']);
 
   @override
   String get currencyUSD => 'Dolar amerykański';
