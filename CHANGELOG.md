@@ -1,3 +1,7 @@
+# 1.4.0
+
+* Upgrade to 3.19 Flutter (0.19.0 intl)
+
 # 1.3.4
 
 * Added Persian locale

@@ -2,7 +2,7 @@ name: flutter_currency_picker
 description: |
   Currency Picker -- simple representation layer (double to formatted number), 
   wrapper on top of SearchAnchor
-version: 1.3.4
+version: 1.4.0
 homepage: https://github.com/lyskouski/flutter_currency_picker
 repository: https://github.com/lyskouski/flutter_currency_picker
 issue_tracker: https://github.com/lyskouski/flutter_currency_picker/issues
@@ -16,14 +16,14 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  intl: ^0.18.1
-  shared_preferences: ^2.2.2
+  intl: any
+  shared_preferences: any
   dart_intl_search: ^1.2.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.1
   mockito: ^5.4.2
   build_runner: ^2.4.6
 
