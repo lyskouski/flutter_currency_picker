@@ -116,7 +116,7 @@ class CurrencySelectorBarState<T extends CurrencySelector,
       isFullScreen: true,
       searchController: controller,
       barHintText: widget.hintText,
-      barHintStyle: MaterialStateProperty.all(widget.headerHintStyle),
+      barHintStyle: WidgetStateProperty.all(widget.headerHintStyle),
       onTap: onTap,
       suggestionsBuilder: buildList,
     );

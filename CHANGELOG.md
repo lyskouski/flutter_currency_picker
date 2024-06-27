@@ -1,3 +1,7 @@
+# 1.5.2
+
+* Replace deprecated 'MaterialStateProperty' by 'WidgetStateProperty'
+
 # 1.5.1
 
 * Fixes by linters
