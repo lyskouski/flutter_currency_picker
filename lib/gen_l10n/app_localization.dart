@@ -9,12 +9,16 @@ import 'package:flutter_currency_picker/l10n/fallback_localization_delegate.dart
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
+import 'app_localization_ar.dart';
+import 'app_localization_az.dart';
 import 'app_localization_be.dart';
 import 'app_localization_de.dart';
 import 'app_localization_en.dart';
+import 'app_localization_es.dart';
 import 'app_localization_fa.dart';
 import 'app_localization_fr.dart';
 import 'app_localization_hi.dart';
+import 'app_localization_ja.dart';
 import 'app_localization_pl.dart';
 import 'app_localization_pt.dart';
 import 'app_localization_uk.dart';
@@ -117,6 +121,10 @@ abstract class AppLocalizations {
     Locale('hi'),
     Locale('uz'),
     Locale('fa'),
+    Locale('ar'),
+    Locale('az'),
+    Locale('ja'),
+    Locale('es'),
     Locale('be', 'EU'),
     Locale('pt', 'BR')
   ];
@@ -817,12 +825,16 @@ class _AppLocalizationsDelegate
 
   @override
   bool isSupported(Locale locale) => <String>[
+        'ar',
+        'az',
         'be',
         'de',
         'en',
+        'es',
         'fa',
         'fr',
         'hi',
+        'ja',
         'pl',
         'pt',
         'uk',
@@ -857,18 +869,26 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
 
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
+    case 'ar':
+      return AppLocalizationsAr();
+    case 'az':
+      return AppLocalizationsAz();
     case 'be':
       return AppLocalizationsBe();
     case 'de':
       return AppLocalizationsDe();
     case 'en':
       return AppLocalizationsEn();
+    case 'es':
+      return AppLocalizationsEs();
     case 'fa':
       return AppLocalizationsFa();
     case 'fr':
       return AppLocalizationsFr();
     case 'hi':
       return AppLocalizationsHi();
+    case 'ja':
+      return AppLocalizationsJa();
     case 'pl':
       return AppLocalizationsPl();
     case 'pt':

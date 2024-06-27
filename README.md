@@ -4,11 +4,11 @@
 [![Build Status](https://github.com/lyskouski/flutter_currency_picker/actions/workflows/build.yml/badge.svg)](https://github.com/lyskouski/flutter_currency_picker/actions/workflows/build.yml)
 <a href="https://www.buymeacoffee.com/lyskouski"><img height="20" src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=lyskouski&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
 
-Wrapper on top of `SearchAnchor` with a localization 
-(en, be, uk, pl, pt, fr, de) support.
+Wrapper on top of `SearchAnchor` with a localization
+(ar, az, en, be, uk, pl, pt, fr, de, es, ja) support.
 
-Representation layer of conversion `number` to a currency as `string`. Native 
-selector extension for Currency Selector with a dependency injection (list 
+Representation layer of conversion `number` to a currency as `string`. Native
+selector extension for Currency Selector with a dependency injection (list
 representation layer) approach, and localization support.
 
 https://pub.dev/packages/flutter_currency_picker
@@ -18,7 +18,7 @@ https://pub.dev/packages/flutter_currency_picker
 ```dart
 // locale 'en_US'
 1234.5.toCurrency(code: 'EUR') // 1 234,50 €
-1234.5.toCurrency(code: 'EUR', withPattern: false) // €1,234.50 
+1234.5.toCurrency(code: 'EUR', withPattern: false) // €1,234.50
 ```
 
 ## Currencies Localization

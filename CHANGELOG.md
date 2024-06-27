@@ -1,3 +1,7 @@
+# 1.5.0
+
+* Added AZ, AR, JA, ES locales
+
 # 1.4.1
 
 * Fix by analyzer (flutter_lints: 3.0.1)
@@ -73,7 +77,7 @@
 # 1.1.0
 
 * Add locales' support: en, be, uk, pl, pt, fr, de
-* API to pin items `CurrencyProvider.pin`, `CurrencyProvider.unpin` 
+* API to pin items `CurrencyProvider.pin`, `CurrencyProvider.unpin`
 
 # 1.0.2
 
@@ -85,7 +89,7 @@
 
 # 1.0.0
 
-* Improve value binding (`NoSuchMethodError: method not found: 'a' on null | js_primitives.dart`) 
+* Improve value binding (`NoSuchMethodError: method not found: 'a' on null | js_primitives.dart`)
 
 # 0.1.2
 
