@@ -73,7 +73,7 @@ class CodeCurrencySelector extends CurrencySelector<CodeCurrencySelectorItem> {
       overflow: TextOverflow.ellipsis,
     );
     // Add background color to selector
-    _fieldBackground = context.colorScheme.onBackground.withOpacity(0.1);
+    _fieldBackground = context.colorScheme.onSurface.withOpacity(0.1);
   }
 
   @override

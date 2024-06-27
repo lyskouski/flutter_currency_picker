@@ -2,7 +2,7 @@ import 'app_localization.dart';
 
 /// The translations for Spanish Castilian (`es`).
 class AppLocalizationsEs extends AppLocalizations {
-  AppLocalizationsEs([String locale = 'es']) : super(locale);
+  AppLocalizationsEs([super.locale = 'es']);
 
   @override
   String get currencyUSD => 'Dólar estadounidense';

@@ -46,7 +46,7 @@ Widget build(BuildContext context) {
       color: textTheme.headlineSmall?.color!.withOpacity(0.4),
       overflow: TextOverflow.ellipsis,
     ),
-    fieldBackground: Theme.of(context).colorScheme.onBackground.withOpacity(0.1),
+    fieldBackground: Theme.of(context).colorScheme.onSurface.withOpacity(0.1),
     update: (value) => setState(() => currency = value),
   );
 }

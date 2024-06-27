@@ -2,7 +2,7 @@ import 'app_localization.dart';
 
 /// The translations for Japanese (`ja`).
 class AppLocalizationsJa extends AppLocalizations {
-  AppLocalizationsJa([String locale = 'ja']) : super(locale);
+  AppLocalizationsJa([super.locale = 'ja']);
 
   @override
   String get currencyUSD => 'アメリカドル';

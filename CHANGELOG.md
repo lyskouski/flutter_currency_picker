@@ -1,3 +1,7 @@
+# 1.5.1
+
+* Fixes by linters
+
 # 1.5.0
 
 * Added AZ, AR, JA, ES locales

@@ -2,7 +2,7 @@ import 'app_localization.dart';
 
 /// The translations for Azerbaijani (`az`).
 class AppLocalizationsAz extends AppLocalizations {
-  AppLocalizationsAz([String locale = 'az']) : super(locale);
+  AppLocalizationsAz([super.locale = 'az']);
 
   @override
   String get currencyUSD => 'Amerika Birləşmiş Ştatları Dolları';
@@ -152,7 +152,8 @@ class AppLocalizationsAz extends AppLocalizations {
   String get currencyBOB => 'Bolivia Bolíviano';
 
   @override
-  String get currencyBAM => 'Bosniya və Herseqovina konvertasiya edilə bilən markası';
+  String get currencyBAM =>
+      'Bosniya və Herseqovina konvertasiya edilə bilən markası';
 
   @override
   String get currencyBWP => 'Botsvana pulası';
