@@ -1,3 +1,7 @@
+# 1.6.0
+
+* Added IT, TR, KO, and NL locales
+
 # 1.5.2
 
 * Replace deprecated 'MaterialStateProperty' by 'WidgetStateProperty'

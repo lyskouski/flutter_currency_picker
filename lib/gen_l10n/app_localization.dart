@@ -18,12 +18,18 @@ import 'app_localization_es.dart';
 import 'app_localization_fa.dart';
 import 'app_localization_fr.dart';
 import 'app_localization_hi.dart';
+import 'app_localization_it.dart';
 import 'app_localization_ja.dart';
+import 'app_localization_ko.dart';
+import 'app_localization_nl.dart';
 import 'app_localization_pl.dart';
 import 'app_localization_pt.dart';
+import 'app_localization_tr.dart';
 import 'app_localization_uk.dart';
 import 'app_localization_uz.dart';
 import 'app_localization_zh.dart';
+
+// ignore_for_file: type=lint
 
 /// Callers can lookup localized strings with an instance of AppLocalizations
 /// returned by `AppLocalizations.of(context)`.
@@ -125,6 +131,10 @@ abstract class AppLocalizations {
     Locale('az'),
     Locale('ja'),
     Locale('es'),
+    Locale('it'),
+    Locale('tr'),
+    Locale('ko'),
+    Locale('nl'),
     Locale('be', 'EU'),
     Locale('pt', 'BR')
   ];
@@ -834,9 +844,13 @@ class _AppLocalizationsDelegate
         'fa',
         'fr',
         'hi',
+        'it',
         'ja',
+        'ko',
+        'nl',
         'pl',
         'pt',
+        'tr',
         'uk',
         'uz',
         'zh'
@@ -887,12 +901,20 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsFr();
     case 'hi':
       return AppLocalizationsHi();
+    case 'it':
+      return AppLocalizationsIt();
     case 'ja':
       return AppLocalizationsJa();
+    case 'ko':
+      return AppLocalizationsKo();
+    case 'nl':
+      return AppLocalizationsNl();
     case 'pl':
       return AppLocalizationsPl();
     case 'pt':
       return AppLocalizationsPt();
+    case 'tr':
+      return AppLocalizationsTr();
     case 'uk':
       return AppLocalizationsUk();
     case 'uz':
