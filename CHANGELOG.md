@@ -1,3 +1,7 @@
+# 1.7.0
+
+* Added CS and RO locales
+
 # 1.6.0
 
 * Added IT, TR, KO, and NL locales
