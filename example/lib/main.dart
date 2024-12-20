@@ -69,11 +69,11 @@ class CodeCurrencySelector extends CurrencySelector<CodeCurrencySelectorItem> {
         CodeCurrencySelectorItem.fromCurrency;
     // Define hint styling
     _hintStyle = context.textTheme.bodyLarge!.copyWith(
-      color: context.textTheme.headlineSmall?.color!.withOpacity(0.4),
+      color: context.textTheme.headlineSmall?.color!.withValues(alpha: 0.4),
       overflow: TextOverflow.ellipsis,
     );
     // Add background color to selector
-    _fieldBackground = context.colorScheme.onSurface.withOpacity(0.1);
+    _fieldBackground = context.colorScheme.onSurface.withValues(alpha: 0.1);
   }
 
   @override

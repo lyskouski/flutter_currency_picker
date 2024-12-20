@@ -43,10 +43,10 @@ Widget build(BuildContext context) {
     value: currency?.code,
     hintText: 'Currency Type (Code)',
     hintStyle: Theme.of(context).textTheme.copyWith(
-      color: textTheme.headlineSmall?.color!.withOpacity(0.4),
+      color: textTheme.headlineSmall?.color!.withValues(alpha: 0.4),
       overflow: TextOverflow.ellipsis,
     ),
-    fieldBackground: Theme.of(context).colorScheme.onSurface.withOpacity(0.1),
+    fieldBackground: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.1),
     update: (value) => setState(() => currency = value),
   );
 }

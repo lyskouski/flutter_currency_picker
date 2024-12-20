@@ -226,8 +226,9 @@ class CurrencySelectorState<T extends CurrencySelector,
         .forEach((index, e) {
       result.add(ListTile(
         title: e.build(context),
-        tileColor: index % 2 == 0 ? widget.tileColor?.withOpacity(0.05) : null,
-        hoverColor: widget.tileColor?.withOpacity(0.15),
+        tileColor:
+            index % 2 == 0 ? widget.tileColor?.withValues(alpha: 0.05) : null,
+        hoverColor: widget.tileColor?.withValues(alpha: 0.15),
         onTap: () => onChange(e),
       ));
     });
