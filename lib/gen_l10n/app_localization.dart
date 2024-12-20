@@ -12,6 +12,7 @@ import 'package:intl/intl.dart' as intl;
 import 'app_localization_ar.dart';
 import 'app_localization_az.dart';
 import 'app_localization_be.dart';
+import 'app_localization_cs.dart';
 import 'app_localization_de.dart';
 import 'app_localization_en.dart';
 import 'app_localization_es.dart';
@@ -24,6 +25,7 @@ import 'app_localization_ko.dart';
 import 'app_localization_nl.dart';
 import 'app_localization_pl.dart';
 import 'app_localization_pt.dart';
+import 'app_localization_ro.dart';
 import 'app_localization_tr.dart';
 import 'app_localization_uk.dart';
 import 'app_localization_uz.dart';
@@ -135,8 +137,11 @@ abstract class AppLocalizations {
     Locale('tr'),
     Locale('ko'),
     Locale('nl'),
+    Locale('cs'),
+    Locale('ro'),
     Locale('be', 'EU'),
-    Locale('pt', 'BR')
+    Locale('pt', 'BR'),
+    Locale('zh', 'TW')
   ];
 
   /// No description provided for @currencyUSD.
@@ -838,6 +843,7 @@ class _AppLocalizationsDelegate
         'ar',
         'az',
         'be',
+        'cs',
         'de',
         'en',
         'es',
@@ -850,6 +856,7 @@ class _AppLocalizationsDelegate
         'nl',
         'pl',
         'pt',
+        'ro',
         'tr',
         'uk',
         'uz',
@@ -879,6 +886,14 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
         }
         break;
       }
+    case 'zh':
+      {
+        switch (locale.countryCode) {
+          case 'TW':
+            return AppLocalizationsZhTw();
+        }
+        break;
+      }
   }
 
   // Lookup logic when only language code is specified.
@@ -889,6 +904,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsAz();
     case 'be':
       return AppLocalizationsBe();
+    case 'cs':
+      return AppLocalizationsCs();
     case 'de':
       return AppLocalizationsDe();
     case 'en':
@@ -913,6 +930,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsPl();
     case 'pt':
       return AppLocalizationsPt();
+    case 'ro':
+      return AppLocalizationsRo();
     case 'tr':
       return AppLocalizationsTr();
     case 'uk':

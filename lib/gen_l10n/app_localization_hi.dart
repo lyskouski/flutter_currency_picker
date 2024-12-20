@@ -1,8 +1,10 @@
 import 'app_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Hindi (`hi`).
 class AppLocalizationsHi extends AppLocalizations {
-  AppLocalizationsHi([super.locale = 'hi']);
+  AppLocalizationsHi([String locale = 'hi']) : super(locale);
 
   @override
   String get currencyUSD => 'संयुक्त राज्य अमेरिका डॉलर';

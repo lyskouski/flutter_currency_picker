@@ -1,8 +1,10 @@
 import 'app_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Persian (`fa`).
 class AppLocalizationsFa extends AppLocalizations {
-  AppLocalizationsFa([super.locale = 'fa']);
+  AppLocalizationsFa([String locale = 'fa']) : super(locale);
 
   @override
   String get currencyUSD => 'دلار ایالات متحده';
