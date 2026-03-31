@@ -354,5 +354,8 @@ class AppLocalizationsKo extends AppLocalizations {
   String get currencySDG => '수단 파운드';
 
   @override
-  String get currencyIQD => 'Iraqi Dinar';
+  String get currencyIQD => '이라크 디나르';
+
+  @override
+  String get currencyLBP => '레바논 파운드';
 }

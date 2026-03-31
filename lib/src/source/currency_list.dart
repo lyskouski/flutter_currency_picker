@@ -1286,5 +1286,16 @@ List<Currency> currencyList(AppLocalizations labels) {
       hasSpace: true,
       symbolOnLeft: true,
     ),
+    (
+      code: 'LBP',
+      name: CurrencyDefaults.labels.currencyLBP,
+      symbol: 'LL',
+      flag: '🇱🇧',
+      decimalDigits: 0,
+      thousandsSeparator: ',',
+      decimalSeparator: '.',
+      hasSpace: true,
+      symbolOnLeft: true,
+    ),
   ];
 }

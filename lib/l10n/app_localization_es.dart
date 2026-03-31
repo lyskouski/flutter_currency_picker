@@ -354,5 +354,8 @@ class AppLocalizationsEs extends AppLocalizations {
   String get currencySDG => 'Libra sudanesa';
 
   @override
-  String get currencyIQD => 'Iraqi Dinar';
+  String get currencyIQD => 'Dinar iraquí';
+
+  @override
+  String get currencyLBP => 'Libra libanesa';
 }
