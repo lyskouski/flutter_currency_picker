@@ -1308,5 +1308,16 @@ List<Currency> currencyList(AppLocalizations labels) {
       hasSpace: true,
       symbolOnLeft: true,
     ),
+    (
+      code: 'IRR',
+      name: CurrencyDefaults.labels.currencyIRR,
+      symbol: '﷼',
+      flag: '🇮🇷',
+      decimalDigits: 0,
+      thousandsSeparator: ',',
+      decimalSeparator: '.',
+      hasSpace: true,
+      symbolOnLeft: true,
+    ),
   ];
 }

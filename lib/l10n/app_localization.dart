@@ -846,6 +846,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Libyan Dinar'**
   String get currencyLYD;
+
+  /// No description provided for @currencyIRR.
+  ///
+  /// In en, this message translates to:
+  /// **'Iranian Rial'**
+  String get currencyIRR;
 }
 
 class _AppLocalizationsDelegate

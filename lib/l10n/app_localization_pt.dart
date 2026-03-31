@@ -361,6 +361,9 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get currencyLYD => 'Dinar líbio';
+
+  @override
+  String get currencyIRR => 'Rial iraniano';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -720,4 +723,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get currencyLYD => 'Dinar líbio';
+
+  @override
+  String get currencyIRR => 'Rial iraniano';
 }

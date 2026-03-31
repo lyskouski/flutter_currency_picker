@@ -362,4 +362,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get currencyLYD => 'Liviya dinori';
+
+  @override
+  String get currencyIRR => 'Eron riali';
 }

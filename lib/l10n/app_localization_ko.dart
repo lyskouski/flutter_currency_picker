@@ -361,4 +361,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get currencyLYD => '리비아 디나르';
+
+  @override
+  String get currencyIRR => '이란 리알';
 }

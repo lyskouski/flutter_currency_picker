@@ -361,4 +361,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get currencyLYD => 'Libyan Dinar';
+
+  @override
+  String get currencyIRR => 'Iranian Rial';
 }

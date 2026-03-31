@@ -361,4 +361,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get currencyLYD => 'Libyjský dinár';
+
+  @override
+  String get currencyIRR => 'Íránský rijál';
 }

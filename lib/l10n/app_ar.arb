@@ -116,5 +116,6 @@
   "currencySDG": "الجنيه السوداني",
   "currencyIQD": "الدينار العراقي",
   "currencyLBP": "الليرة اللبنانية",
-  "currencyLYD": "الدينار الليبي"
+  "currencyLYD": "الدينار الليبي",
+  "currencyIRR": "ريال إيراني"
 }

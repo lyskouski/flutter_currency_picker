@@ -361,6 +361,9 @@ class AppLocalizationsBe extends AppLocalizations {
 
   @override
   String get currencyLYD => 'Лівійскі дынар';
+
+  @override
+  String get currencyIRR => 'Іранскі рыял';
 }
 
 /// The translations for Belarusian, as used in European Union (`be_EU`).
@@ -720,4 +723,7 @@ class AppLocalizationsBeEu extends AppLocalizationsBe {
 
   @override
   String get currencyLYD => 'Liviya Dinar';
+
+  @override
+  String get currencyIRR => 'Iranski ryjal';
 }

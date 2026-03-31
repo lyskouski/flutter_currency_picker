@@ -116,5 +116,6 @@
   "currencySDG": "Sudanese pound",
   "currencyIQD": "Iraqi Dinar",
   "currencyLBP": "Lebanese pound",
-  "currencyLYD": "Libyan Dinar"
+  "currencyLYD": "Libyan Dinar",
+  "currencyIRR": "Iranian Rial"
 }
