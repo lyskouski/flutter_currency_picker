@@ -352,6 +352,9 @@ class AppLocalizationsBe extends AppLocalizations {
 
   @override
   String get currencySDG => 'Суданскі фунт';
+
+  @override
+  String get currencyIQD => 'Iraqi Dinar';
 }
 
 /// The translations for Belarusian, as used in European Union (`be_EU`).

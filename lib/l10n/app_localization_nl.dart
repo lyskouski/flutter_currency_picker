@@ -352,4 +352,7 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get currencySDG => 'Soedanese pond';
+
+  @override
+  String get currencyIQD => 'Iraqi Dinar';
 }

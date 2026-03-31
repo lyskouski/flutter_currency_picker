@@ -352,4 +352,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get currencySDG => 'Funt sudański';
+
+  @override
+  String get currencyIQD => 'Iraqi Dinar';
 }

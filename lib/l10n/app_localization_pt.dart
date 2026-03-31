@@ -352,6 +352,9 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get currencySDG => 'Libra sudanesa';
+
+  @override
+  String get currencyIQD => 'Iraqi Dinar';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).

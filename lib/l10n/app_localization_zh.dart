@@ -352,6 +352,9 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get currencySDG => '苏丹镑';
+
+  @override
+  String get currencyIQD => 'Iraqi Dinar';
 }
 
 /// The translations for Chinese, as used in Taiwan (`zh_TW`).

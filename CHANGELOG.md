@@ -1,3 +1,7 @@
+# 1.8.0
+
+* Added missing currencies: Sudanese pound (SDG), Iraqi Dinar (IQD), Lebanese pound (LBP), Libyan Dinar (LYD), Iranian Rial (IRR).
+
 # 1.7.0
 
 * Added CS and RO locales

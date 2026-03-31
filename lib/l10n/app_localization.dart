@@ -828,6 +828,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Sudanese pound'**
   String get currencySDG;
+
+  /// No description provided for @currencyIQD.
+  ///
+  /// In en, this message translates to:
+  /// **'Iraqi Dinar'**
+  String get currencyIQD;
 }
 
 class _AppLocalizationsDelegate
