@@ -1297,5 +1297,16 @@ List<Currency> currencyList(AppLocalizations labels) {
       hasSpace: true,
       symbolOnLeft: true,
     ),
+    (
+      code: 'LYD',
+      name: CurrencyDefaults.labels.currencyLYD,
+      symbol: 'LD',
+      flag: '🇱🇾',
+      decimalDigits: 2,
+      thousandsSeparator: ',',
+      decimalSeparator: '.',
+      hasSpace: true,
+      symbolOnLeft: true,
+    ),
   ];
 }

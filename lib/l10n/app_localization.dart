@@ -840,6 +840,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Lebanese pound'**
   String get currencyLBP;
+
+  /// No description provided for @currencyLYD.
+  ///
+  /// In en, this message translates to:
+  /// **'Libyan Dinar'**
+  String get currencyLYD;
 }
 
 class _AppLocalizationsDelegate

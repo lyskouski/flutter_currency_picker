@@ -359,4 +359,7 @@ class AppLocalizationsAz extends AppLocalizations {
 
   @override
   String get currencyLBP => 'Livan Funtu';
+
+  @override
+  String get currencyLYD => 'Liviya Dinarı';
 }

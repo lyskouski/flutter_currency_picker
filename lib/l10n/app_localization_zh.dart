@@ -358,6 +358,9 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get currencyLBP => '黎巴嫩镑';
+
+  @override
+  String get currencyLYD => '利比亚第纳尔';
 }
 
 /// The translations for Chinese, as used in Taiwan (`zh_TW`).
@@ -714,4 +717,7 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get currencyLBP => '黎巴嫩鎊';
+
+  @override
+  String get currencyLYD => '利比亞第納爾';
 }

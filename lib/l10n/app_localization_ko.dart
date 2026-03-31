@@ -358,4 +358,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get currencyLBP => '레바논 파운드';
+
+  @override
+  String get currencyLYD => '리비아 디나르';
 }

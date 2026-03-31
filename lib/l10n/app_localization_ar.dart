@@ -358,4 +358,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get currencyLBP => 'الليرة اللبنانية';
+
+  @override
+  String get currencyLYD => 'الدينار الليبي';
 }

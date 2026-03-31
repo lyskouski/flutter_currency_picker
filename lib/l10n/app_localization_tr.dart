@@ -358,4 +358,7 @@ class AppLocalizationsTr extends AppLocalizations {
 
   @override
   String get currencyLBP => 'Lübnan Lirası';
+
+  @override
+  String get currencyLYD => 'Libya Dinarı';
 }

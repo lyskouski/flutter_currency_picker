@@ -358,4 +358,7 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get currencyLBP => 'Libanese pond';
+
+  @override
+  String get currencyLYD => 'Libische dinar';
 }
