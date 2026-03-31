@@ -3,8 +3,8 @@
 // that can be found in the LICENSE file.
 
 import 'package:flutter/material.dart';
-import 'package:flutter_currency_picker/gen_l10n/app_localization.dart';
-import 'package:flutter_currency_picker/gen_l10n/app_localization_en.dart';
+import 'package:flutter_currency_picker/l10n/app_localization.dart';
+import 'package:flutter_currency_picker/l10n/app_localization_en.dart';
 import 'package:flutter_currency_picker/src/currency.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

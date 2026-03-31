@@ -2,7 +2,7 @@
 // Use of this source code is governed by a MIT license
 // that can be found in the LICENSE file.
 
-import 'package:flutter_currency_picker/gen_l10n/app_localization.dart';
+import 'package:flutter_currency_picker/l10n/app_localization.dart';
 import 'package:flutter_currency_picker/src/currency.dart';
 import 'package:flutter_currency_picker/src/currency_defaults.dart';
 
