@@ -349,6 +349,9 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get currencyZMW => 'Kwacha zambiano';
+
+  @override
+  String get currencySDG => 'Libra sudanesa';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -696,4 +699,7 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get currencyZMW => 'Kwacha zambiano';
+
+  @override
+  String get currencySDG => 'Libra sudanesa';
 }

@@ -349,4 +349,7 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get currencyZMW => 'Kwacha zambijska';
+
+  @override
+  String get currencySDG => 'Funt sudański';
 }

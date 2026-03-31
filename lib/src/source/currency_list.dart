@@ -1264,5 +1264,16 @@ List<Currency> currencyList(AppLocalizations labels) {
       hasSpace: false,
       symbolOnLeft: true,
     ),
+    (
+      code: 'SDG',
+      name: CurrencyDefaults.labels.currencySDG,
+      symbol: 'LS',
+      flag: '🇸🇩',
+      decimalDigits: 2,
+      thousandsSeparator: ' ',
+      decimalSeparator: ',',
+      hasSpace: true,
+      symbolOnLeft: true,
+    ),
   ];
 }

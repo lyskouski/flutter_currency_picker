@@ -822,6 +822,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Zambian kwacha'**
   String get currencyZMW;
+
+  /// No description provided for @currencySDG.
+  ///
+  /// In en, this message translates to:
+  /// **'Sudanese pound'**
+  String get currencySDG;
 }
 
 class _AppLocalizationsDelegate

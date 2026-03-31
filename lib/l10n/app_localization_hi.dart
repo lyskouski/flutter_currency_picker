@@ -349,4 +349,7 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get currencyZMW => 'ज़ाम्बियन क्वाचा';
+
+  @override
+  String get currencySDG => 'सूडानी पाउंड';
 }

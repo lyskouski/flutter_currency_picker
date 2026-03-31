@@ -349,6 +349,9 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get currencyZMW => '赞比亚克瓦查';
+
+  @override
+  String get currencySDG => '苏丹镑';
 }
 
 /// The translations for Chinese, as used in Taiwan (`zh_TW`).
@@ -696,4 +699,7 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get currencyZMW => '尚比亞克瓦查';
+
+  @override
+  String get currencySDG => '蘇丹鎊';
 }

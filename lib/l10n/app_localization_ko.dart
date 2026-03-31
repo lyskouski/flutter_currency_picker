@@ -349,4 +349,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get currencyZMW => '잠비아 콰차';
+
+  @override
+  String get currencySDG => '수단 파운드';
 }

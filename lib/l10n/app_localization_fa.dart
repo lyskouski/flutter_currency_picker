@@ -349,4 +349,7 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get currencyZMW => 'کواچای زامبیا';
+
+  @override
+  String get currencySDG => 'پوند سودان';
 }

@@ -350,4 +350,7 @@ class AppLocalizationsAz extends AppLocalizations {
 
   @override
   String get currencyZMW => 'Zambiya kvaçası';
+
+  @override
+  String get currencySDG => 'Sudan Funtu';
 }

@@ -349,4 +349,7 @@ class AppLocalizationsJa extends AppLocalizations {
 
   @override
   String get currencyZMW => 'ザンビア クワチャ';
+
+  @override
+  String get currencySDG => 'スーダン ポンド';
 }

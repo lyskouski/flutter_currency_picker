@@ -349,6 +349,9 @@ class AppLocalizationsBe extends AppLocalizations {
 
   @override
   String get currencyZMW => 'Замбійская квача';
+
+  @override
+  String get currencySDG => 'Суданскі фунт';
 }
 
 /// The translations for Belarusian, as used in European Union (`be_EU`).
@@ -696,4 +699,7 @@ class AppLocalizationsBeEu extends AppLocalizationsBe {
 
   @override
   String get currencyZMW => 'Zambijskaja kvača';
+
+  @override
+  String get currencySDG => 'Sudanski funt';
 }

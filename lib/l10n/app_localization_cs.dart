@@ -349,4 +349,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get currencyZMW => 'zambijská kwacha';
+
+  @override
+  String get currencySDG => 'súdánský funt';
 }
