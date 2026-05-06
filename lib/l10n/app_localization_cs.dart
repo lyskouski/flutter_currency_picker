@@ -15,6 +15,12 @@ class AppLocalizationsCs extends AppLocalizations {
   String get currencyEUR => 'Euro';
 
   @override
+  String get currencyFJD => 'fidžijský dolar';
+
+  @override
+  String get currencyFKP => 'falklandská libra';
+
+  @override
   String get currencyJPY => 'japonský jen';
 
   @override
@@ -22,6 +28,9 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get currencyAUD => 'australský dolar';
+
+  @override
+  String get currencyAWG => 'arubský florin';
 
   @override
   String get currencyCAD => 'kanadský dolar';
@@ -69,10 +78,16 @@ class AppLocalizationsCs extends AppLocalizations {
   String get currencyBRL => 'brazilský real';
 
   @override
+  String get currencyBSD => 'bahamský dolar';
+
+  @override
   String get currencyTWD => 'tchajwanský nový dolar';
 
   @override
   String get currencyDKK => 'Dánská koruna';
+
+  @override
+  String get currencyDJF => 'džibutský frank';
 
   @override
   String get currencyPLN => 'Polský zlotý';
@@ -121,6 +136,9 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get currencyAOA => 'angolská kwanza';
+
+  @override
+  String get currencyANG => 'nizozemský antilský gulden';
 
   @override
   String get currencyDZD => 'alžírský dinár';
@@ -177,13 +195,25 @@ class AppLocalizationsCs extends AppLocalizations {
   String get currencyKHR => 'kambodžský riel';
 
   @override
+  String get currencyKMF => 'komorský frank';
+
+  @override
+  String get currencyKPW => 'severokorejský won';
+
+  @override
   String get currencyKYD => 'Kajmanský dolar';
 
   @override
   String get currencyXAF => 'středoafrický CFA frank';
 
   @override
+  String get currencyXCD => 'východokaribský dolar';
+
+  @override
   String get currencyXOF => 'UEMOA CFA frank';
+
+  @override
+  String get currencyXPF => 'CFP frank';
 
   @override
   String get currencyCDF => 'konžský frank';
@@ -192,10 +222,19 @@ class AppLocalizationsCs extends AppLocalizations {
   String get currencyCRC => 'Kostarika Colon';
 
   @override
+  String get currencyCUP => 'kubánské peso';
+
+  @override
+  String get currencyCVE => 'kapverdské escudo';
+
+  @override
   String get currencyDOP => 'Dominikánská republika peso';
 
   @override
   String get currencyEGP => 'egyptská libra';
+
+  @override
+  String get currencyERN => 'eritrejská nakfa';
 
   @override
   String get currencyETB => 'etiopský Birr';
@@ -217,6 +256,9 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get currencyHTG => 'haitská tykev';
+
+  @override
+  String get currencyHNL => 'honduraská lempira';
 
   @override
   String get currencyISK => 'Islandská koruna';
@@ -249,7 +291,13 @@ class AppLocalizationsCs extends AppLocalizations {
   String get currencyLRD => 'liberijský dolar';
 
   @override
+  String get currencyLSL => 'lesothský loti';
+
+  @override
   String get currencyMKD => 'Makedonský denár';
+
+  @override
+  String get currencyMGA => 'madagaskarský ariary';
 
   @override
   String get currencyMWK => 'malawská kwacha';
@@ -262,6 +310,15 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get currencyMNT => 'Mongolsko Tughrik';
+
+  @override
+  String get currencyMOP => 'macaoská pataca';
+
+  @override
+  String get currencyMRU => 'mauritánská ouguiya';
+
+  @override
+  String get currencyMVR => 'maledivská rufiyaa';
 
   @override
   String get currencyMAD => 'marocký dirham';
@@ -297,6 +354,9 @@ class AppLocalizationsCs extends AppLocalizations {
   String get currencyPYG => 'Paraguay Guarani';
 
   @override
+  String get currencyPAB => 'panamská balboa';
+
+  @override
   String get currencyPEN => 'Peru Sol';
 
   @override
@@ -315,10 +375,31 @@ class AppLocalizationsCs extends AppLocalizations {
   String get currencySOS => 'Somálský šilink';
 
   @override
+  String get currencySBD => 'šalomounský dolar';
+
+  @override
   String get currencyLKR => 'srílanská rupie';
 
   @override
   String get currencySRD => 'surinamský dolar';
+
+  @override
+  String get currencySHP => 'svatohelenská libra';
+
+  @override
+  String get currencySLE => 'sierraleonský leone';
+
+  @override
+  String get currencySSP => 'jihosúdánská libra';
+
+  @override
+  String get currencySTN => 'svatotomášská dobra';
+
+  @override
+  String get currencySVC => 'salvadorský colon';
+
+  @override
+  String get currencySZL => 'svazijský lilangeni';
 
   @override
   String get currencySYP => 'Syrská lira';
@@ -333,6 +414,15 @@ class AppLocalizationsCs extends AppLocalizations {
   String get currencyTND => 'tuniský dinár';
 
   @override
+  String get currencyTJS => 'tádžický somoni';
+
+  @override
+  String get currencyTMT => 'turkmenský manat';
+
+  @override
+  String get currencyTOP => 'tonžská pa\'anga';
+
+  @override
   String get currencyUGX => 'ugandský šilink';
 
   @override
@@ -342,16 +432,25 @@ class AppLocalizationsCs extends AppLocalizations {
   String get currencyUYU => 'Uruguayské peso';
 
   @override
-  String get currencyVEF => 'Venezuela Bolívar';
+  String get currencyVES => 'venezuelský bolívar soberano';
 
   @override
   String get currencyVND => 'Viet Nam Dong';
+
+  @override
+  String get currencyVUV => 'vanuatský vatu';
+
+  @override
+  String get currencyWST => 'samojská tala';
 
   @override
   String get currencyYER => 'jemenský rial';
 
   @override
   String get currencyZMW => 'zambijská kwacha';
+
+  @override
+  String get currencyZWG => 'zimbabwské zlato';
 
   @override
   String get currencySDG => 'súdánský funt';
@@ -367,4 +466,10 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get currencyIRR => 'Íránský rijál';
+
+  @override
+  String get currencyGIP => 'gibraltarská libra';
+
+  @override
+  String get currencyGNF => 'guinejský frank';
 }

@@ -15,6 +15,12 @@ class AppLocalizationsHi extends AppLocalizations {
   String get currencyEUR => 'यूरो';
 
   @override
+  String get currencyFJD => 'फिजियन डॉलर';
+
+  @override
+  String get currencyFKP => 'फ़ॉकलैंड आइलैंड्स पाउंड';
+
+  @override
   String get currencyJPY => 'जापानी येन';
 
   @override
@@ -22,6 +28,9 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get currencyAUD => 'ऑस्ट्रेलियाई डॉलर';
+
+  @override
+  String get currencyAWG => 'अरुबन फ़्लोरिन';
 
   @override
   String get currencyCAD => 'कैनेडियन डॉलर';
@@ -69,10 +78,16 @@ class AppLocalizationsHi extends AppLocalizations {
   String get currencyBRL => 'ब्राज़ीलियाई रियल';
 
   @override
+  String get currencyBSD => 'बहामियन डॉलर';
+
+  @override
   String get currencyTWD => 'ताइवान न्यू डॉलर';
 
   @override
   String get currencyDKK => 'डेनमार्क क्रोन';
+
+  @override
+  String get currencyDJF => 'जिबूतियन फ़्रैंक';
 
   @override
   String get currencyPLN => 'पोलैंड ज़्लॉटी';
@@ -121,6 +136,9 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get currencyAOA => 'अंगोलाई क्वांज़ा';
+
+  @override
+  String get currencyANG => 'नीदरलैंड्स एंटीलियन गिल्डर';
 
   @override
   String get currencyDZD => 'अल्जीरियाई दीनार';
@@ -177,13 +195,25 @@ class AppLocalizationsHi extends AppLocalizations {
   String get currencyKHR => 'कम्बोडियन रील';
 
   @override
+  String get currencyKMF => 'कोमोरियन फ़्रैंक';
+
+  @override
+  String get currencyKPW => 'उत्तर कोरियाई वॉन';
+
+  @override
   String get currencyKYD => 'केमैन आइलैंड्स डॉलर';
 
   @override
   String get currencyXAF => 'मध्य अफ़्रीकी CFA फ़्रैंक';
 
   @override
+  String get currencyXCD => 'पूर्वी कैरिबियाई डॉलर';
+
+  @override
   String get currencyXOF => 'यूमोआ सीएफए फ्रैंक';
+
+  @override
+  String get currencyXPF => 'CFP फ़्रैंक';
 
   @override
   String get currencyCDF => 'कांगोलेस फ़्रैंक';
@@ -192,10 +222,19 @@ class AppLocalizationsHi extends AppLocalizations {
   String get currencyCRC => 'कोस्टा रिका कोलन';
 
   @override
+  String get currencyCUP => 'क्यूबाई पेसो';
+
+  @override
+  String get currencyCVE => 'केप वर्डियन एस्कुडो';
+
+  @override
   String get currencyDOP => 'डोमिनिकन गणराज्य पेसो';
 
   @override
   String get currencyEGP => 'मिस्र पाउंड';
+
+  @override
+  String get currencyERN => 'इरीट्रियन नाक्फ़ा';
 
   @override
   String get currencyETB => 'इथियोपियाई बिर';
@@ -217,6 +256,9 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get currencyHTG => 'हाईटियन लौर्डे';
+
+  @override
+  String get currencyHNL => 'होंडुरन लेम्पिरा';
 
   @override
   String get currencyISK => 'आइसलैंड क्रोना';
@@ -249,7 +291,13 @@ class AppLocalizationsHi extends AppLocalizations {
   String get currencyLRD => 'लाइबेरिया डॉलर';
 
   @override
+  String get currencyLSL => 'लेसोथो लोटी';
+
+  @override
   String get currencyMKD => 'मैसेडोनिया डेनार';
+
+  @override
+  String get currencyMGA => 'मालागासी आरियरी';
 
   @override
   String get currencyMWK => 'मलावी क्वाचा';
@@ -262,6 +310,15 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get currencyMNT => 'मंगोलिया तुगरिक';
+
+  @override
+  String get currencyMOP => 'मकाऊ पटाका';
+
+  @override
+  String get currencyMRU => 'मॉरिटानियन औगुइया';
+
+  @override
+  String get currencyMVR => 'मालदीवियन रुफ़िया';
 
   @override
   String get currencyMAD => 'मोरक्कन दिरहम';
@@ -297,6 +354,9 @@ class AppLocalizationsHi extends AppLocalizations {
   String get currencyPYG => 'पैराग्वे गुआरानी';
 
   @override
+  String get currencyPAB => 'पनामानियन बाल्बोआ';
+
+  @override
   String get currencyPEN => 'पेरू सोल';
 
   @override
@@ -315,10 +375,31 @@ class AppLocalizationsHi extends AppLocalizations {
   String get currencySOS => 'सोमालिया शिलिंग';
 
   @override
+  String get currencySBD => 'सोलोमन आइलैंड्स डॉलर';
+
+  @override
   String get currencyLKR => 'श्रीलंका रुपया';
 
   @override
   String get currencySRD => 'सूरीनाम डॉलर';
+
+  @override
+  String get currencySHP => 'सेंट हेलेना पाउंड';
+
+  @override
+  String get currencySLE => 'सियेरा लियोनियन लियोन';
+
+  @override
+  String get currencySSP => 'दक्षिण सूडानी पाउंड';
+
+  @override
+  String get currencySTN => 'साओ टोम और प्रिंसिप डोब्रा';
+
+  @override
+  String get currencySVC => 'सल्वाडोरन कोलोन';
+
+  @override
+  String get currencySZL => 'स्वाज़ी लिलांगेनी';
 
   @override
   String get currencySYP => 'सीरियाई लीरा';
@@ -333,6 +414,15 @@ class AppLocalizationsHi extends AppLocalizations {
   String get currencyTND => 'ट्यूनीशियाई दीनार';
 
   @override
+  String get currencyTJS => 'ताजिकिस्तानी सोमोनी';
+
+  @override
+  String get currencyTMT => 'तुर्कमेनिस्तानी मनत';
+
+  @override
+  String get currencyTOP => 'टोंगन पाअंगा';
+
+  @override
   String get currencyUGX => 'युगांडा शिलिंग';
 
   @override
@@ -342,16 +432,25 @@ class AppLocalizationsHi extends AppLocalizations {
   String get currencyUYU => 'उरुग्वे पेसो';
 
   @override
-  String get currencyVEF => 'वेनेजुएला बोलिवर';
+  String get currencyVES => 'वेनेज़ुएलन बोलिवर सोबेरानो';
 
   @override
   String get currencyVND => 'वियतनाम डोंग';
+
+  @override
+  String get currencyVUV => 'वनुआतु वातु';
+
+  @override
+  String get currencyWST => 'समोअन ताला';
 
   @override
   String get currencyYER => 'यमन रियाल';
 
   @override
   String get currencyZMW => 'ज़ाम्बियन क्वाचा';
+
+  @override
+  String get currencyZWG => 'ज़िम्बाब्वे सोना';
 
   @override
   String get currencySDG => 'सूडानी पाउंड';
@@ -366,5 +465,11 @@ class AppLocalizationsHi extends AppLocalizations {
   String get currencyLYD => 'लीबियाई दिनार';
 
   @override
-  String get currencyIRR => 'ईरानी रियाल';
+  String get currencyIRR => 'ईरान रियाल';
+
+  @override
+  String get currencyGIP => 'जिब्राल्टर पाउंड';
+
+  @override
+  String get currencyGNF => 'गिनीयन फ़्रैंक';
 }

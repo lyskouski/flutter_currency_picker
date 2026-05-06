@@ -82,7 +82,7 @@ import 'app_localization_zh.dart';
 /// property.
 abstract class AppLocalizations {
   AppLocalizations(String locale)
-      : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+    : localeName = intl.Intl.canonicalizedLocale(locale.toString());
 
   final String localeName;
 
@@ -105,11 +105,11 @@ abstract class AppLocalizations {
   /// of delegates is preferred or required.
   static const List<LocalizationsDelegate<dynamic>> localizationsDelegates =
       <LocalizationsDelegate<dynamic>>[
-    delegate,
-    GlobalMaterialLocalizations.delegate,
-    GlobalCupertinoLocalizations.delegate,
-    GlobalWidgetsLocalizations.delegate,
-  ];
+        delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+      ];
 
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
@@ -136,7 +136,7 @@ abstract class AppLocalizations {
     Locale('ro'),
     Locale('be', 'EU'),
     Locale('pt', 'BR'),
-    Locale('zh', 'TW')
+    Locale('zh', 'TW'),
   ];
 
   /// No description provided for @currencyUSD.
@@ -150,6 +150,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Euro'**
   String get currencyEUR;
+
+  /// No description provided for @currencyFJD.
+  ///
+  /// In en, this message translates to:
+  /// **'Fijian Dollar'**
+  String get currencyFJD;
+
+  /// No description provided for @currencyFKP.
+  ///
+  /// In en, this message translates to:
+  /// **'Falkland Islands Pound'**
+  String get currencyFKP;
 
   /// No description provided for @currencyJPY.
   ///
@@ -168,6 +180,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Australian Dollar'**
   String get currencyAUD;
+
+  /// No description provided for @currencyAWG.
+  ///
+  /// In en, this message translates to:
+  /// **'Aruban Florin'**
+  String get currencyAWG;
 
   /// No description provided for @currencyCAD.
   ///
@@ -259,6 +277,12 @@ abstract class AppLocalizations {
   /// **'Brazilian Real'**
   String get currencyBRL;
 
+  /// No description provided for @currencyBSD.
+  ///
+  /// In en, this message translates to:
+  /// **'Bahamian Dollar'**
+  String get currencyBSD;
+
   /// No description provided for @currencyTWD.
   ///
   /// In en, this message translates to:
@@ -270,6 +294,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Denmark Krone'**
   String get currencyDKK;
+
+  /// No description provided for @currencyDJF.
+  ///
+  /// In en, this message translates to:
+  /// **'Djiboutian Franc'**
+  String get currencyDJF;
 
   /// No description provided for @currencyPLN.
   ///
@@ -366,6 +396,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Angolan Kwanza'**
   String get currencyAOA;
+
+  /// No description provided for @currencyANG.
+  ///
+  /// In en, this message translates to:
+  /// **'Netherlands Antillean Guilder'**
+  String get currencyANG;
 
   /// No description provided for @currencyDZD.
   ///
@@ -475,6 +511,18 @@ abstract class AppLocalizations {
   /// **'Cambodian riel'**
   String get currencyKHR;
 
+  /// No description provided for @currencyKMF.
+  ///
+  /// In en, this message translates to:
+  /// **'Comorian Franc'**
+  String get currencyKMF;
+
+  /// No description provided for @currencyKPW.
+  ///
+  /// In en, this message translates to:
+  /// **'North Korean Won'**
+  String get currencyKPW;
+
   /// No description provided for @currencyKYD.
   ///
   /// In en, this message translates to:
@@ -487,11 +535,23 @@ abstract class AppLocalizations {
   /// **'Central African CFA franc'**
   String get currencyXAF;
 
+  /// No description provided for @currencyXCD.
+  ///
+  /// In en, this message translates to:
+  /// **'East Caribbean Dollar'**
+  String get currencyXCD;
+
   /// No description provided for @currencyXOF.
   ///
   /// In en, this message translates to:
   /// **'UEMOA CFA franc'**
   String get currencyXOF;
+
+  /// No description provided for @currencyXPF.
+  ///
+  /// In en, this message translates to:
+  /// **'CFP Franc'**
+  String get currencyXPF;
 
   /// No description provided for @currencyCDF.
   ///
@@ -505,6 +565,18 @@ abstract class AppLocalizations {
   /// **'Costa Rica Colon'**
   String get currencyCRC;
 
+  /// No description provided for @currencyCUP.
+  ///
+  /// In en, this message translates to:
+  /// **'Cuban Peso'**
+  String get currencyCUP;
+
+  /// No description provided for @currencyCVE.
+  ///
+  /// In en, this message translates to:
+  /// **'Cape Verdean Escudo'**
+  String get currencyCVE;
+
   /// No description provided for @currencyDOP.
   ///
   /// In en, this message translates to:
@@ -516,6 +588,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Egypt Pound'**
   String get currencyEGP;
+
+  /// No description provided for @currencyERN.
+  ///
+  /// In en, this message translates to:
+  /// **'Eritrean Nakfa'**
+  String get currencyERN;
 
   /// No description provided for @currencyETB.
   ///
@@ -558,6 +636,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Haitian gourde'**
   String get currencyHTG;
+
+  /// No description provided for @currencyHNL.
+  ///
+  /// In en, this message translates to:
+  /// **'Honduran Lempira'**
+  String get currencyHNL;
 
   /// No description provided for @currencyISK.
   ///
@@ -619,11 +703,23 @@ abstract class AppLocalizations {
   /// **'Liberia Dollar'**
   String get currencyLRD;
 
+  /// No description provided for @currencyLSL.
+  ///
+  /// In en, this message translates to:
+  /// **'Lesotho Loti'**
+  String get currencyLSL;
+
   /// No description provided for @currencyMKD.
   ///
   /// In en, this message translates to:
   /// **'Macedonia Denar'**
   String get currencyMKD;
+
+  /// No description provided for @currencyMGA.
+  ///
+  /// In en, this message translates to:
+  /// **'Malagasy Ariary'**
+  String get currencyMGA;
 
   /// No description provided for @currencyMWK.
   ///
@@ -648,6 +744,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Mongolia Tughrik'**
   String get currencyMNT;
+
+  /// No description provided for @currencyMOP.
+  ///
+  /// In en, this message translates to:
+  /// **'Macanese Pataca'**
+  String get currencyMOP;
+
+  /// No description provided for @currencyMRU.
+  ///
+  /// In en, this message translates to:
+  /// **'Mauritanian Ouguiya'**
+  String get currencyMRU;
+
+  /// No description provided for @currencyMVR.
+  ///
+  /// In en, this message translates to:
+  /// **'Maldivian Rufiyaa'**
+  String get currencyMVR;
 
   /// No description provided for @currencyMAD.
   ///
@@ -715,6 +829,12 @@ abstract class AppLocalizations {
   /// **'Paraguay Guarani'**
   String get currencyPYG;
 
+  /// No description provided for @currencyPAB.
+  ///
+  /// In en, this message translates to:
+  /// **'Panamanian Balboa'**
+  String get currencyPAB;
+
   /// No description provided for @currencyPEN.
   ///
   /// In en, this message translates to:
@@ -751,6 +871,12 @@ abstract class AppLocalizations {
   /// **'Somalia Shilling'**
   String get currencySOS;
 
+  /// No description provided for @currencySBD.
+  ///
+  /// In en, this message translates to:
+  /// **'Solomon Islands Dollar'**
+  String get currencySBD;
+
   /// No description provided for @currencyLKR.
   ///
   /// In en, this message translates to:
@@ -762,6 +888,42 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Suriname Dollar'**
   String get currencySRD;
+
+  /// No description provided for @currencySHP.
+  ///
+  /// In en, this message translates to:
+  /// **'Saint Helena Pound'**
+  String get currencySHP;
+
+  /// No description provided for @currencySLE.
+  ///
+  /// In en, this message translates to:
+  /// **'Sierra Leonean Leone'**
+  String get currencySLE;
+
+  /// No description provided for @currencySSP.
+  ///
+  /// In en, this message translates to:
+  /// **'South Sudanese Pound'**
+  String get currencySSP;
+
+  /// No description provided for @currencySTN.
+  ///
+  /// In en, this message translates to:
+  /// **'São Tomé and Príncipe Dobra'**
+  String get currencySTN;
+
+  /// No description provided for @currencySVC.
+  ///
+  /// In en, this message translates to:
+  /// **'Salvadoran Colón'**
+  String get currencySVC;
+
+  /// No description provided for @currencySZL.
+  ///
+  /// In en, this message translates to:
+  /// **'Swazi Lilangeni'**
+  String get currencySZL;
 
   /// No description provided for @currencySYP.
   ///
@@ -787,6 +949,24 @@ abstract class AppLocalizations {
   /// **'Tunisian dinar'**
   String get currencyTND;
 
+  /// No description provided for @currencyTJS.
+  ///
+  /// In en, this message translates to:
+  /// **'Tajikistani Somoni'**
+  String get currencyTJS;
+
+  /// No description provided for @currencyTMT.
+  ///
+  /// In en, this message translates to:
+  /// **'Turkmenistani Manat'**
+  String get currencyTMT;
+
+  /// No description provided for @currencyTOP.
+  ///
+  /// In en, this message translates to:
+  /// **'Tongan Paʻanga'**
+  String get currencyTOP;
+
   /// No description provided for @currencyUGX.
   ///
   /// In en, this message translates to:
@@ -805,17 +985,29 @@ abstract class AppLocalizations {
   /// **'Uruguay Peso'**
   String get currencyUYU;
 
-  /// No description provided for @currencyVEF.
+  /// No description provided for @currencyVES.
   ///
   /// In en, this message translates to:
-  /// **'Venezuela Bolívar'**
-  String get currencyVEF;
+  /// **'Venezuelan Bolívar Soberano'**
+  String get currencyVES;
 
   /// No description provided for @currencyVND.
   ///
   /// In en, this message translates to:
   /// **'Viet Nam Dong'**
   String get currencyVND;
+
+  /// No description provided for @currencyVUV.
+  ///
+  /// In en, this message translates to:
+  /// **'Vanuatu Vatu'**
+  String get currencyVUV;
+
+  /// No description provided for @currencyWST.
+  ///
+  /// In en, this message translates to:
+  /// **'Samoan Tala'**
+  String get currencyWST;
 
   /// No description provided for @currencyYER.
   ///
@@ -828,6 +1020,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Zambian kwacha'**
   String get currencyZMW;
+
+  /// No description provided for @currencyZWG.
+  ///
+  /// In en, this message translates to:
+  /// **'Zimbabwe Gold'**
+  String get currencyZWG;
 
   /// No description provided for @currencySDG.
   ///
@@ -858,6 +1056,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Iranian Rial'**
   String get currencyIRR;
+
+  /// No description provided for @currencyGIP.
+  ///
+  /// In en, this message translates to:
+  /// **'Gibraltar Pound'**
+  String get currencyGIP;
+
+  /// No description provided for @currencyGNF.
+  ///
+  /// In en, this message translates to:
+  /// **'Guinean Franc'**
+  String get currencyGNF;
 }
 
 class _AppLocalizationsDelegate
@@ -871,28 +1081,28 @@ class _AppLocalizationsDelegate
 
   @override
   bool isSupported(Locale locale) => <String>[
-        'ar',
-        'az',
-        'be',
-        'cs',
-        'de',
-        'en',
-        'es',
-        'fa',
-        'fr',
-        'hi',
-        'it',
-        'ja',
-        'ko',
-        'nl',
-        'pl',
-        'pt',
-        'ro',
-        'tr',
-        'uk',
-        'uz',
-        'zh'
-      ].contains(locale.languageCode);
+    'ar',
+    'az',
+    'be',
+    'cs',
+    'de',
+    'en',
+    'es',
+    'fa',
+    'fr',
+    'hi',
+    'it',
+    'ja',
+    'ko',
+    'nl',
+    'pl',
+    'pt',
+    'ro',
+    'tr',
+    'uk',
+    'uz',
+    'zh',
+  ].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -974,8 +1184,9 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
   }
 
   throw FlutterError(
-      'AppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
-      'an issue with the localizations generation tool. Please file an issue '
-      'on GitHub with a reproducible sample app and the gen-l10n configuration '
-      'that was used.');
+    'AppLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
+    'an issue with the localizations generation tool. Please file an issue '
+    'on GitHub with a reproducible sample app and the gen-l10n configuration '
+    'that was used.',
+  );
 }

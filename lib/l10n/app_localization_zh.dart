@@ -15,6 +15,12 @@ class AppLocalizationsZh extends AppLocalizations {
   String get currencyEUR => '欧元';
 
   @override
+  String get currencyFJD => '斐济元';
+
+  @override
+  String get currencyFKP => '福克兰群岛镑';
+
+  @override
   String get currencyJPY => '日元';
 
   @override
@@ -22,6 +28,9 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get currencyAUD => '澳大利亚元';
+
+  @override
+  String get currencyAWG => '阿鲁巴弗罗林';
 
   @override
   String get currencyCAD => '加拿大元';
@@ -69,10 +78,16 @@ class AppLocalizationsZh extends AppLocalizations {
   String get currencyBRL => '巴西雷亚尔';
 
   @override
+  String get currencyBSD => '巴哈马元';
+
+  @override
   String get currencyTWD => '新台币';
 
   @override
   String get currencyDKK => '丹麦克朗';
+
+  @override
+  String get currencyDJF => '吉布提法郎';
 
   @override
   String get currencyPLN => '波兰兹罗提';
@@ -121,6 +136,9 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get currencyAOA => '安哥拉宽扎';
+
+  @override
+  String get currencyANG => '荷兰安的列斯盾';
 
   @override
   String get currencyDZD => '阿尔及利亚第纳尔';
@@ -177,13 +195,25 @@ class AppLocalizationsZh extends AppLocalizations {
   String get currencyKHR => '柬埔寨瑞尔';
 
   @override
+  String get currencyKMF => '科摩罗法郎';
+
+  @override
+  String get currencyKPW => '朝鲜圆';
+
+  @override
   String get currencyKYD => '开曼群岛元';
 
   @override
   String get currencyXAF => '中非法郎';
 
   @override
+  String get currencyXCD => '东加勒比元';
+
+  @override
   String get currencyXOF => '非洲金融共同体法郎';
+
+  @override
+  String get currencyXPF => '太平洋法郎';
 
   @override
   String get currencyCDF => '刚果法郎';
@@ -192,10 +222,19 @@ class AppLocalizationsZh extends AppLocalizations {
   String get currencyCRC => '哥斯达黎加科朗';
 
   @override
+  String get currencyCUP => '古巴比索';
+
+  @override
+  String get currencyCVE => '佛得角埃斯库多';
+
+  @override
   String get currencyDOP => '多米尼加共和国比索';
 
   @override
   String get currencyEGP => '埃及镑';
+
+  @override
+  String get currencyERN => '厄立特里亚纳克法';
 
   @override
   String get currencyETB => '埃塞俄比亚比尔';
@@ -217,6 +256,9 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get currencyHTG => '海地古德';
+
+  @override
+  String get currencyHNL => '洪都拉斯伦皮拉';
 
   @override
   String get currencyISK => '冰岛克朗';
@@ -249,7 +291,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get currencyLRD => '利比里亚元';
 
   @override
+  String get currencyLSL => '莱索托洛蒂';
+
+  @override
   String get currencyMKD => '马其顿第纳尔';
+
+  @override
+  String get currencyMGA => '马达加斯加阿里亚里';
 
   @override
   String get currencyMWK => '马拉维克瓦查';
@@ -262,6 +310,15 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get currencyMNT => '蒙古图格里克';
+
+  @override
+  String get currencyMOP => '澳门帕塔卡';
+
+  @override
+  String get currencyMRU => '毛里塔尼亚乌吉亚';
+
+  @override
+  String get currencyMVR => '马尔代夫拉菲亚';
 
   @override
   String get currencyMAD => '摩洛哥迪拉姆';
@@ -297,6 +354,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get currencyPYG => '巴拉圭瓜拉尼';
 
   @override
+  String get currencyPAB => '巴拿马巴波亚';
+
+  @override
   String get currencyPEN => '秘鲁索尔';
 
   @override
@@ -315,10 +375,31 @@ class AppLocalizationsZh extends AppLocalizations {
   String get currencySOS => '索马里先令';
 
   @override
+  String get currencySBD => '所罗门群岛元';
+
+  @override
   String get currencyLKR => '斯里兰卡卢比';
 
   @override
   String get currencySRD => '苏里南元';
+
+  @override
+  String get currencySHP => '圣赫勒拿镑';
+
+  @override
+  String get currencySLE => '塞拉利昂利昂';
+
+  @override
+  String get currencySSP => '南苏丹镑';
+
+  @override
+  String get currencySTN => '圣多美和普林西比多布拉';
+
+  @override
+  String get currencySVC => '萨尔瓦多科朗';
+
+  @override
+  String get currencySZL => '斯威士兰里兰吉尼';
 
   @override
   String get currencySYP => '叙利亚里拉';
@@ -333,6 +414,15 @@ class AppLocalizationsZh extends AppLocalizations {
   String get currencyTND => '突尼斯第纳尔';
 
   @override
+  String get currencyTJS => '塔吉克斯坦索莫尼';
+
+  @override
+  String get currencyTMT => '土库曼斯坦马纳特';
+
+  @override
+  String get currencyTOP => '汤加潘加';
+
+  @override
   String get currencyUGX => '乌干达先令';
 
   @override
@@ -342,16 +432,25 @@ class AppLocalizationsZh extends AppLocalizations {
   String get currencyUYU => '乌拉圭比索';
 
   @override
-  String get currencyVEF => '委内瑞拉玻利瓦尔';
+  String get currencyVES => '委内瑞拉主权玻利瓦尔';
 
   @override
   String get currencyVND => '越南盾';
+
+  @override
+  String get currencyVUV => '瓦努阿图瓦图';
+
+  @override
+  String get currencyWST => '萨摩亚塔拉';
 
   @override
   String get currencyYER => '也门里亚尔';
 
   @override
   String get currencyZMW => '赞比亚克瓦查';
+
+  @override
+  String get currencyZWG => '津巴布韦黄金';
 
   @override
   String get currencySDG => '苏丹镑';
@@ -367,6 +466,12 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get currencyIRR => '伊朗里亚尔';
+
+  @override
+  String get currencyGIP => '直布罗陀镑';
+
+  @override
+  String get currencyGNF => '几内亚法郎';
 }
 
 /// The translations for Chinese, as used in Taiwan (`zh_TW`).
@@ -380,6 +485,12 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get currencyEUR => '歐元';
 
   @override
+  String get currencyFJD => '斐濟元';
+
+  @override
+  String get currencyFKP => '福克蘭群島鎊';
+
+  @override
   String get currencyJPY => '日圓';
 
   @override
@@ -387,6 +498,9 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get currencyAUD => '澳洲元';
+
+  @override
+  String get currencyAWG => '阿魯巴弗羅林';
 
   @override
   String get currencyCAD => '加拿大元';
@@ -434,10 +548,16 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get currencyBRL => '巴西雷亞爾';
 
   @override
+  String get currencyBSD => '巴哈馬元';
+
+  @override
   String get currencyTWD => '新台幣';
 
   @override
   String get currencyDKK => '丹麥克朗';
+
+  @override
+  String get currencyDJF => '吉布地法郎';
 
   @override
   String get currencyPLN => '波蘭茲羅提';
@@ -486,6 +606,9 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get currencyAOA => '安哥拉寬扎';
+
+  @override
+  String get currencyANG => '荷蘭安的列斯盾';
 
   @override
   String get currencyDZD => '阿爾及利亞第納爾';
@@ -542,13 +665,25 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get currencyKHR => '柬埔寨瑞爾';
 
   @override
+  String get currencyKMF => '葛摩法郎';
+
+  @override
+  String get currencyKPW => '北韓圓';
+
+  @override
   String get currencyKYD => '開曼群島元';
 
   @override
   String get currencyXAF => '中非金融合作法郎';
 
   @override
+  String get currencyXCD => '東加勒比海元';
+
+  @override
   String get currencyXOF => 'UEMOA 非洲金融共同體法郎';
+
+  @override
+  String get currencyXPF => '太平洋法郎';
 
   @override
   String get currencyCDF => '剛果法郎';
@@ -557,10 +692,19 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get currencyCRC => '哥斯大黎加科朗';
 
   @override
+  String get currencyCUP => '古巴比索';
+
+  @override
+  String get currencyCVE => '維德角埃斯庫多';
+
+  @override
   String get currencyDOP => '多明尼加共和國比索';
 
   @override
   String get currencyEGP => '埃及鎊';
+
+  @override
+  String get currencyERN => '厄利垂亞納克法';
 
   @override
   String get currencyETB => '埃塞俄比亞比爾';
@@ -582,6 +726,9 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get currencyHTG => '海地古德';
+
+  @override
+  String get currencyHNL => '宏都拉斯倫皮拉';
 
   @override
   String get currencyISK => '冰島克朗';
@@ -614,7 +761,13 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get currencyLRD => '利比里亞元';
 
   @override
+  String get currencyLSL => '賴索托洛蒂';
+
+  @override
   String get currencyMKD => '馬其頓代納爾';
+
+  @override
+  String get currencyMGA => '馬達加斯加阿里亞里';
 
   @override
   String get currencyMWK => '馬拉維克瓦查';
@@ -627,6 +780,15 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get currencyMNT => '蒙古圖格里克';
+
+  @override
+  String get currencyMOP => '澳門帕塔卡';
+
+  @override
+  String get currencyMRU => '茅利塔尼亞烏吉亞';
+
+  @override
+  String get currencyMVR => '馬爾地夫拉菲亞';
 
   @override
   String get currencyMAD => '摩洛哥迪拉姆';
@@ -662,6 +824,9 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get currencyPYG => '巴拉圭瓜拉尼';
 
   @override
+  String get currencyPAB => '巴拿馬巴波亞';
+
+  @override
   String get currencyPEN => '秘魯索爾';
 
   @override
@@ -680,10 +845,31 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get currencySOS => '索馬利亞先令';
 
   @override
+  String get currencySBD => '索羅門群島元';
+
+  @override
   String get currencyLKR => '斯里蘭卡盧比';
 
   @override
   String get currencySRD => '蘇利南元';
+
+  @override
+  String get currencySHP => '聖赫勒拿鎊';
+
+  @override
+  String get currencySLE => '獅子山利昂';
+
+  @override
+  String get currencySSP => '南蘇丹鎊';
+
+  @override
+  String get currencySTN => '聖多美普林西比多布拉';
+
+  @override
+  String get currencySVC => '薩爾瓦多科朗';
+
+  @override
+  String get currencySZL => '史瓦帝尼里蘭吉尼';
 
   @override
   String get currencySYP => '敘利亞里拉';
@@ -698,6 +884,15 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get currencyTND => '突尼斯第納爾';
 
   @override
+  String get currencyTJS => '塔吉克索莫尼';
+
+  @override
+  String get currencyTMT => '土庫曼馬納特';
+
+  @override
+  String get currencyTOP => '東加潘加';
+
+  @override
   String get currencyUGX => '烏幹達先令';
 
   @override
@@ -707,16 +902,25 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get currencyUYU => '烏拉圭比索';
 
   @override
-  String get currencyVEF => '委內瑞拉玻利瓦爾';
+  String get currencyVES => '委內瑞拉主權玻利瓦爾';
 
   @override
   String get currencyVND => '越南盾';
+
+  @override
+  String get currencyVUV => '萬那杜瓦圖';
+
+  @override
+  String get currencyWST => '薩摩亞塔拉';
 
   @override
   String get currencyYER => '也門裡亞爾';
 
   @override
   String get currencyZMW => '尚比亞克瓦查';
+
+  @override
+  String get currencyZWG => '辛巴威黃金';
 
   @override
   String get currencySDG => '蘇丹鎊';
@@ -732,4 +936,10 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get currencyIRR => '伊朗里亞爾';
+
+  @override
+  String get currencyGIP => '直布羅陀鎊';
+
+  @override
+  String get currencyGNF => '幾內亞法郎';
 }

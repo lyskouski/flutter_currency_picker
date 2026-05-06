@@ -15,6 +15,12 @@ class AppLocalizationsUk extends AppLocalizations {
   String get currencyEUR => 'Євро';
 
   @override
+  String get currencyFJD => 'Фіджійський долар';
+
+  @override
+  String get currencyFKP => 'Фунт Фолклендських островів';
+
+  @override
   String get currencyJPY => 'Японська єна';
 
   @override
@@ -22,6 +28,9 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get currencyAUD => 'Австралійський долар';
+
+  @override
+  String get currencyAWG => 'Арубський флорин';
 
   @override
   String get currencyCAD => 'Канадський долар';
@@ -69,10 +78,16 @@ class AppLocalizationsUk extends AppLocalizations {
   String get currencyBRL => 'Бразильський реал';
 
   @override
+  String get currencyBSD => 'Багамський долар';
+
+  @override
   String get currencyTWD => 'Новий тайванський долар';
 
   @override
   String get currencyDKK => 'Данська крона';
+
+  @override
+  String get currencyDJF => 'Джибутський франк';
 
   @override
   String get currencyPLN => 'Польський злотий';
@@ -121,6 +136,9 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get currencyAOA => 'Ангольська кванза';
+
+  @override
+  String get currencyANG => 'Нідерландський антильський гульден';
 
   @override
   String get currencyDZD => 'Алжирський динар';
@@ -177,13 +195,25 @@ class AppLocalizationsUk extends AppLocalizations {
   String get currencyKHR => 'Камбоджійський ріель';
 
   @override
+  String get currencyKMF => 'Коморський франк';
+
+  @override
+  String get currencyKPW => 'Північнокорейський вон';
+
+  @override
   String get currencyKYD => 'Долар Кайманових островів';
 
   @override
   String get currencyXAF => 'Центральноафриканський франк КФА';
 
   @override
+  String get currencyXCD => 'Східнокарибський долар';
+
+  @override
   String get currencyXOF => 'Франк КФА UEMOA';
+
+  @override
+  String get currencyXPF => 'CFP франк';
 
   @override
   String get currencyCDF => 'Конголезький франк';
@@ -192,10 +222,19 @@ class AppLocalizationsUk extends AppLocalizations {
   String get currencyCRC => 'Коста-риканський колон';
 
   @override
+  String get currencyCUP => 'Кубинське песо';
+
+  @override
+  String get currencyCVE => 'Ескудо Кабо-Верде';
+
+  @override
   String get currencyDOP => 'Песо Домініканської Республіки';
 
   @override
   String get currencyEGP => 'Єгипетський фунт';
+
+  @override
+  String get currencyERN => 'Еритрейська накфа';
 
   @override
   String get currencyETB => 'Ефіопський бир';
@@ -217,6 +256,9 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get currencyHTG => 'Гаїтянський гурд';
+
+  @override
+  String get currencyHNL => 'Гондураська лемпіра';
 
   @override
   String get currencyISK => 'Ісландська крона';
@@ -249,7 +291,13 @@ class AppLocalizationsUk extends AppLocalizations {
   String get currencyLRD => 'Ліберійський долар';
 
   @override
+  String get currencyLSL => 'Лоті Лесото';
+
+  @override
   String get currencyMKD => 'Македонський денар';
+
+  @override
+  String get currencyMGA => 'Малагасійський аріарі';
 
   @override
   String get currencyMWK => 'Малавійська квача';
@@ -262,6 +310,15 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get currencyMNT => 'Монголія Тугрик';
+
+  @override
+  String get currencyMOP => 'Макаоська патака';
+
+  @override
+  String get currencyMRU => 'Мавританська угія';
+
+  @override
+  String get currencyMVR => 'Мальдівська руфія';
 
   @override
   String get currencyMAD => 'Марокканський дирхам';
@@ -297,6 +354,9 @@ class AppLocalizationsUk extends AppLocalizations {
   String get currencyPYG => 'Парагвайський гуарані';
 
   @override
+  String get currencyPAB => 'Панамська бальбоа';
+
+  @override
   String get currencyPEN => 'Перуанський соль';
 
   @override
@@ -315,10 +375,31 @@ class AppLocalizationsUk extends AppLocalizations {
   String get currencySOS => 'Сомалійський шилінг';
 
   @override
+  String get currencySBD => 'Долар Соломонових Островів';
+
+  @override
   String get currencyLKR => 'Рупія Шрі-Ланки';
 
   @override
   String get currencySRD => 'Суринамський долар';
+
+  @override
+  String get currencySHP => 'Фунт острова Святої Єлени';
+
+  @override
+  String get currencySLE => 'Сьєрра-леонський леоне';
+
+  @override
+  String get currencySSP => 'Південносуданський фунт';
+
+  @override
+  String get currencySTN => 'Добра Сан-Томе і Принсіпі';
+
+  @override
+  String get currencySVC => 'Сальвадорський колон';
+
+  @override
+  String get currencySZL => 'Свазілендський лілангені';
 
   @override
   String get currencySYP => 'Сирійська ліра';
@@ -333,6 +414,15 @@ class AppLocalizationsUk extends AppLocalizations {
   String get currencyTND => 'Туніський динар';
 
   @override
+  String get currencyTJS => 'Таджицький сомоні';
+
+  @override
+  String get currencyTMT => 'Туркменський манат';
+
+  @override
+  String get currencyTOP => 'Тонганська паанга';
+
+  @override
   String get currencyUGX => 'Угандійський шилінг';
 
   @override
@@ -342,16 +432,25 @@ class AppLocalizationsUk extends AppLocalizations {
   String get currencyUYU => 'Уругвайський песо';
 
   @override
-  String get currencyVEF => 'Венесуельський болівар';
+  String get currencyVES => 'Венесуельський болівар соберано';
 
   @override
   String get currencyVND => 'В\'єтнамський донг';
+
+  @override
+  String get currencyVUV => 'Вануатський вату';
+
+  @override
+  String get currencyWST => 'Самоанська тала';
 
   @override
   String get currencyYER => 'Єменський ріал';
 
   @override
   String get currencyZMW => 'Замбійська квача';
+
+  @override
+  String get currencyZWG => 'Зімбабвійське золото';
 
   @override
   String get currencySDG => 'Суданський фунт';
@@ -367,4 +466,10 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get currencyIRR => 'Іранський ріал';
+
+  @override
+  String get currencyGIP => 'Гібралтарський фунт';
+
+  @override
+  String get currencyGNF => 'Гвінейський франк';
 }

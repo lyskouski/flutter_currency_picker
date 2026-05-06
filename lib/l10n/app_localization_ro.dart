@@ -15,6 +15,12 @@ class AppLocalizationsRo extends AppLocalizations {
   String get currencyEUR => 'Euro';
 
   @override
+  String get currencyFJD => 'Dollar fijian';
+
+  @override
+  String get currencyFKP => 'Libră din Insulele Falkland';
+
+  @override
   String get currencyJPY => 'Yenul japonez';
 
   @override
@@ -22,6 +28,9 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get currencyAUD => 'Dolar australian';
+
+  @override
+  String get currencyAWG => 'Florin aruban';
 
   @override
   String get currencyCAD => 'Dolar canadian';
@@ -69,10 +78,16 @@ class AppLocalizationsRo extends AppLocalizations {
   String get currencyBRL => 'Real brazilian';
 
   @override
+  String get currencyBSD => 'Dollar bahamez';
+
+  @override
   String get currencyTWD => 'Nou dolar Taiwan';
 
   @override
   String get currencyDKK => 'Corona danemarcă';
+
+  @override
+  String get currencyDJF => 'Franc djiboutian';
 
   @override
   String get currencyPLN => 'Zloty polonez';
@@ -121,6 +136,9 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get currencyAOA => 'Kwanza angoleză';
+
+  @override
+  String get currencyANG => 'Gulden antilele neerlandeze';
 
   @override
   String get currencyDZD => 'Dinar algerian';
@@ -177,13 +195,25 @@ class AppLocalizationsRo extends AppLocalizations {
   String get currencyKHR => 'riel cambodgian';
 
   @override
+  String get currencyKMF => 'Franc comorian';
+
+  @override
+  String get currencyKPW => 'Won nord-coreean';
+
+  @override
   String get currencyKYD => 'Dolar din Insulele Cayman';
 
   @override
   String get currencyXAF => 'Franc CFA din Africa Centrală';
 
   @override
+  String get currencyXCD => 'Dollar din Caraibele de Est';
+
+  @override
   String get currencyXOF => 'UEMOA franc CFA';
+
+  @override
+  String get currencyXPF => 'Franc CFP';
 
   @override
   String get currencyCDF => 'Franc congolez';
@@ -192,10 +222,19 @@ class AppLocalizationsRo extends AppLocalizations {
   String get currencyCRC => 'Colonul Costarica';
 
   @override
+  String get currencyCUP => 'Peso cubanez';
+
+  @override
+  String get currencyCVE => 'Escudo capoverdian';
+
+  @override
   String get currencyDOP => 'Pesu din Republica Dominicană';
 
   @override
   String get currencyEGP => 'Libra egipteană';
+
+  @override
+  String get currencyERN => 'Nakfa eritreean';
 
   @override
   String get currencyETB => 'Birr etiopian';
@@ -217,6 +256,9 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get currencyHTG => 'Gurda haitiană';
+
+  @override
+  String get currencyHNL => 'Lempira honduriană';
 
   @override
   String get currencyISK => 'Corona islandeză';
@@ -249,7 +291,13 @@ class AppLocalizationsRo extends AppLocalizations {
   String get currencyLRD => 'Dolar liberian';
 
   @override
+  String get currencyLSL => 'Loti din Lesotho';
+
+  @override
   String get currencyMKD => 'Macedonia Denar';
+
+  @override
+  String get currencyMGA => 'Ariary malagez';
 
   @override
   String get currencyMWK => 'Kwacha malawian';
@@ -262,6 +310,15 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get currencyMNT => 'Mongolia Tughrik';
+
+  @override
+  String get currencyMOP => 'Pataca din Macao';
+
+  @override
+  String get currencyMRU => 'Ouguiya mauritaniană';
+
+  @override
+  String get currencyMVR => 'Rufiyaa maldiviană';
 
   @override
   String get currencyMAD => 'Dirham marocan';
@@ -297,6 +354,9 @@ class AppLocalizationsRo extends AppLocalizations {
   String get currencyPYG => 'Paraguay Guarani';
 
   @override
+  String get currencyPAB => 'Balboa panameză';
+
+  @override
   String get currencyPEN => 'Peru Sol';
 
   @override
@@ -315,10 +375,31 @@ class AppLocalizationsRo extends AppLocalizations {
   String get currencySOS => 'Șiling somalian';
 
   @override
+  String get currencySBD => 'Dollar din Insulele Solomon';
+
+  @override
   String get currencyLKR => 'Rupia din Sri Lanka';
 
   @override
   String get currencySRD => 'Dolar din Surinam';
+
+  @override
+  String get currencySHP => 'Libră din Sfânta Elena';
+
+  @override
+  String get currencySLE => 'Leone din Sierra Leone';
+
+  @override
+  String get currencySSP => 'Libră sud-sudaneză';
+
+  @override
+  String get currencySTN => 'Dobra din São Tomé și Príncipe';
+
+  @override
+  String get currencySVC => 'Colón salvadorian';
+
+  @override
+  String get currencySZL => 'Lilangeni din Swaziland';
 
   @override
   String get currencySYP => 'Lira siriană';
@@ -333,6 +414,15 @@ class AppLocalizationsRo extends AppLocalizations {
   String get currencyTND => 'dinar tunisian';
 
   @override
+  String get currencyTJS => 'Somoni tadjic';
+
+  @override
+  String get currencyTMT => 'Manat turkmen';
+
+  @override
+  String get currencyTOP => 'Paʻanga tongană';
+
+  @override
   String get currencyUGX => 'Șiling ugandez';
 
   @override
@@ -342,16 +432,25 @@ class AppLocalizationsRo extends AppLocalizations {
   String get currencyUYU => 'Uruguay Peso';
 
   @override
-  String get currencyVEF => 'Venezuela Bolívar';
+  String get currencyVES => 'Bolívar suveran venezuelan';
 
   @override
   String get currencyVND => 'Viet Nam Dong';
+
+  @override
+  String get currencyVUV => 'Vatu din Vanuatu';
+
+  @override
+  String get currencyWST => 'Tala samoană';
 
   @override
   String get currencyYER => 'Rial din Yemen';
 
   @override
   String get currencyZMW => 'kwacha zambiană';
+
+  @override
+  String get currencyZWG => 'Aur din Zimbabwe';
 
   @override
   String get currencySDG => 'Lira sudaneză';
@@ -367,4 +466,10 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get currencyIRR => 'Rial iranian';
+
+  @override
+  String get currencyGIP => 'Libră de Gibraltar';
+
+  @override
+  String get currencyGNF => 'Franc guineez';
 }

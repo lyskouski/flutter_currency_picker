@@ -15,6 +15,12 @@ class AppLocalizationsKo extends AppLocalizations {
   String get currencyEUR => '유로';
 
   @override
+  String get currencyFJD => '피지 달러';
+
+  @override
+  String get currencyFKP => '포클랜드 제도 파운드';
+
+  @override
   String get currencyJPY => '일본 엔';
 
   @override
@@ -22,6 +28,9 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get currencyAUD => '호주 달러';
+
+  @override
+  String get currencyAWG => '아루바 플로린';
 
   @override
   String get currencyCAD => '캐나다 달러';
@@ -69,10 +78,16 @@ class AppLocalizationsKo extends AppLocalizations {
   String get currencyBRL => '브라질 레알';
 
   @override
+  String get currencyBSD => '바하마 달러';
+
+  @override
   String get currencyTWD => '대만 신 달러';
 
   @override
   String get currencyDKK => '덴마크 크로네';
+
+  @override
+  String get currencyDJF => '지부티 프랑';
 
   @override
   String get currencyPLN => '폴란드 즐로티';
@@ -121,6 +136,9 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get currencyAOA => '앙골라 콴자';
+
+  @override
+  String get currencyANG => '네덜란드 안틸 길더';
 
   @override
   String get currencyDZD => '알제리 디나르';
@@ -177,13 +195,25 @@ class AppLocalizationsKo extends AppLocalizations {
   String get currencyKHR => '캄보디아 리엘';
 
   @override
+  String get currencyKMF => '코모로 프랑';
+
+  @override
+  String get currencyKPW => '북한 원';
+
+  @override
   String get currencyKYD => '케이맨 제도 달러';
 
   @override
   String get currencyXAF => '중앙 아프리카 CFA 프랑';
 
   @override
+  String get currencyXCD => '동카리브 달러';
+
+  @override
   String get currencyXOF => 'UEMOA CFA 프랑';
+
+  @override
+  String get currencyXPF => 'CFP 프랑';
 
   @override
   String get currencyCDF => '콩고 프랑';
@@ -192,10 +222,19 @@ class AppLocalizationsKo extends AppLocalizations {
   String get currencyCRC => '코스타 Rica Colon';
 
   @override
+  String get currencyCUP => '쿠바 페소';
+
+  @override
+  String get currencyCVE => '카보베르데 에스쿠도';
+
+  @override
   String get currencyDOP => '도미니카 공화국 페소';
 
   @override
   String get currencyEGP => '이집트 파운드';
+
+  @override
+  String get currencyERN => '에리트리아 나크파';
 
   @override
   String get currencyETB => '에티오피아 비르';
@@ -217,6 +256,9 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get currencyHTG => '아이티 구르드';
+
+  @override
+  String get currencyHNL => '온두라스 렘피라';
 
   @override
   String get currencyISK => '아이슬란드 크로나';
@@ -249,7 +291,13 @@ class AppLocalizationsKo extends AppLocalizations {
   String get currencyLRD => '라이베리아 달러';
 
   @override
+  String get currencyLSL => '레소토 로티';
+
+  @override
   String get currencyMKD => '마케도니아 데나르';
+
+  @override
+  String get currencyMGA => '마다가스카르 아리아리';
 
   @override
   String get currencyMWK => '말라위 콰차';
@@ -262,6 +310,15 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get currencyMNT => '몽골 투그릭';
+
+  @override
+  String get currencyMOP => '마카오 파타카';
+
+  @override
+  String get currencyMRU => '모리타니 우기야';
+
+  @override
+  String get currencyMVR => '몰디브 루피아';
 
   @override
   String get currencyMAD => '모로코 디르함';
@@ -297,6 +354,9 @@ class AppLocalizationsKo extends AppLocalizations {
   String get currencyPYG => '파라과이 과라니';
 
   @override
+  String get currencyPAB => '파나마 발보아';
+
+  @override
   String get currencyPEN => '페루 솔';
 
   @override
@@ -315,10 +375,31 @@ class AppLocalizationsKo extends AppLocalizations {
   String get currencySOS => '소말리아 실링';
 
   @override
+  String get currencySBD => '솔로몬 제도 달러';
+
+  @override
   String get currencyLKR => '스리랑카 루피';
 
   @override
   String get currencySRD => '수리남 달러';
+
+  @override
+  String get currencySHP => '세인트헬레나 파운드';
+
+  @override
+  String get currencySLE => '시에라리온 리온';
+
+  @override
+  String get currencySSP => '남수단 파운드';
+
+  @override
+  String get currencySTN => '상투메 프린시페 도브라';
+
+  @override
+  String get currencySVC => '엘살바도르 콜론';
+
+  @override
+  String get currencySZL => '에스와티니 릴랑게니';
 
   @override
   String get currencySYP => '시리아 리라';
@@ -333,6 +414,15 @@ class AppLocalizationsKo extends AppLocalizations {
   String get currencyTND => '튀니지 디나르';
 
   @override
+  String get currencyTJS => '타지키스탄 소모니';
+
+  @override
+  String get currencyTMT => '투르크메니스탄 마나트';
+
+  @override
+  String get currencyTOP => '통가 파앙가';
+
+  @override
   String get currencyUGX => '우간다 실링';
 
   @override
@@ -342,16 +432,25 @@ class AppLocalizationsKo extends AppLocalizations {
   String get currencyUYU => '우루과이 페소';
 
   @override
-  String get currencyVEF => '베네수엘라 볼리바르';
+  String get currencyVES => '베네수엘라 볼리바르 소베라노';
 
   @override
   String get currencyVND => '베트남 동';
+
+  @override
+  String get currencyVUV => '바누아투 바투';
+
+  @override
+  String get currencyWST => '사모아 탈라';
 
   @override
   String get currencyYER => '예멘 리알';
 
   @override
   String get currencyZMW => '잠비아 콰차';
+
+  @override
+  String get currencyZWG => '짐바브웨 금화';
 
   @override
   String get currencySDG => '수단 파운드';
@@ -367,4 +466,10 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get currencyIRR => '이란 리알';
+
+  @override
+  String get currencyGIP => '지브롤터 파운드';
+
+  @override
+  String get currencyGNF => '기니 프랑';
 }

@@ -15,6 +15,12 @@ class AppLocalizationsBe extends AppLocalizations {
   String get currencyEUR => 'Еўра';
 
   @override
+  String get currencyFJD => 'Фіджыйскі долар';
+
+  @override
+  String get currencyFKP => 'Фолклендскі фунт';
+
+  @override
   String get currencyJPY => 'Японская ена';
 
   @override
@@ -22,6 +28,9 @@ class AppLocalizationsBe extends AppLocalizations {
 
   @override
   String get currencyAUD => 'Аўстралійскі долар';
+
+  @override
+  String get currencyAWG => 'Арубскі флорын';
 
   @override
   String get currencyCAD => 'Канадскі даляр';
@@ -69,10 +78,16 @@ class AppLocalizationsBe extends AppLocalizations {
   String get currencyBRL => 'Бразільскі рэал';
 
   @override
+  String get currencyBSD => 'Багамскі долар';
+
+  @override
   String get currencyTWD => 'Новы тайваньскі даляр';
 
   @override
   String get currencyDKK => 'Дацкая крона';
+
+  @override
+  String get currencyDJF => 'Джыбуці франк';
 
   @override
   String get currencyPLN => 'Польскі злоты';
@@ -121,6 +136,9 @@ class AppLocalizationsBe extends AppLocalizations {
 
   @override
   String get currencyAOA => 'Ангольская кванза';
+
+  @override
+  String get currencyANG => 'Нідэрландскі антыльскі гульдэн';
 
   @override
   String get currencyDZD => 'Алжырскі дынар';
@@ -177,13 +195,25 @@ class AppLocalizationsBe extends AppLocalizations {
   String get currencyKHR => 'Камбаджыйскі рыель';
 
   @override
+  String get currencyKMF => 'Каморскі франк';
+
+  @override
+  String get currencyKPW => 'Паўночнакарэйская вона';
+
+  @override
   String get currencyKYD => 'Даляр Кайманавых выспаў';
 
   @override
-  String get currencyXAF => 'Цэнтральнаафрыканскі франк КФА';
+  String get currencyXAF => 'Цэнтральнаафрыканскі франк CFA';
 
   @override
-  String get currencyXOF => 'Франк КФА UEMOA';
+  String get currencyXCD => 'Усходнекарыбскі даляр';
+
+  @override
+  String get currencyXOF => 'Заходнеафрыканскі франк CFA';
+
+  @override
+  String get currencyXPF => 'Франк CFP';
 
   @override
   String get currencyCDF => 'Кангалезскі франк';
@@ -192,10 +222,19 @@ class AppLocalizationsBe extends AppLocalizations {
   String get currencyCRC => 'Костарыканскі калон';
 
   @override
+  String get currencyCUP => 'Кубінскі песа';
+
+  @override
+  String get currencyCVE => 'Эскуда Каба-Вердэ';
+
+  @override
   String get currencyDOP => 'Песа Дамініканскай Рэспублікі';
 
   @override
   String get currencyEGP => 'Егіпецкі фунт';
+
+  @override
+  String get currencyERN => 'Эрытрэйская накфа';
 
   @override
   String get currencyETB => 'Эфіопскі быр';
@@ -217,6 +256,9 @@ class AppLocalizationsBe extends AppLocalizations {
 
   @override
   String get currencyHTG => 'Гаіцянскі гурд';
+
+  @override
+  String get currencyHNL => 'Гандураская лемпіра';
 
   @override
   String get currencyISK => 'Iсландская крона';
@@ -249,7 +291,13 @@ class AppLocalizationsBe extends AppLocalizations {
   String get currencyLRD => 'Ліберыйскі даляр';
 
   @override
+  String get currencyLSL => 'Лесотскі лоці';
+
+  @override
   String get currencyMKD => 'Македонскі дэнар';
+
+  @override
+  String get currencyMGA => 'Малагасійскі арыяры';
 
   @override
   String get currencyMWK => 'Малавійская квача';
@@ -262,6 +310,15 @@ class AppLocalizationsBe extends AppLocalizations {
 
   @override
   String get currencyMNT => 'Манголія Тугрык';
+
+  @override
+  String get currencyMOP => 'Макаўская патака';
+
+  @override
+  String get currencyMRU => 'Маўрытанская угія';
+
+  @override
+  String get currencyMVR => 'Мальдыўская руфія';
 
   @override
   String get currencyMAD => 'Мараканскі дырхам';
@@ -297,6 +354,9 @@ class AppLocalizationsBe extends AppLocalizations {
   String get currencyPYG => 'Парагвай Гуарані';
 
   @override
+  String get currencyPAB => 'Панамская бальбоа';
+
+  @override
   String get currencyPEN => 'Перуанскі соль';
 
   @override
@@ -315,10 +375,31 @@ class AppLocalizationsBe extends AppLocalizations {
   String get currencySOS => 'Самалійскі шылінг';
 
   @override
+  String get currencySBD => 'Саламонаў долар';
+
+  @override
   String get currencyLKR => 'Рупія Шры-Ланкі';
 
   @override
   String get currencySRD => 'Сурынамскі даляр';
+
+  @override
+  String get currencySHP => 'Фунт Святой Алены';
+
+  @override
+  String get currencySLE => 'Сьера-Леонскі леонэ';
+
+  @override
+  String get currencySSP => 'Паўднёвасуданскі фунт';
+
+  @override
+  String get currencySTN => 'Сан-Томэ і Прынсыпі добра';
+
+  @override
+  String get currencySVC => 'Сальвадорскі калон';
+
+  @override
+  String get currencySZL => 'Свазілендскі ліланген';
 
   @override
   String get currencySYP => 'Сірыйская ліра';
@@ -333,6 +414,15 @@ class AppLocalizationsBe extends AppLocalizations {
   String get currencyTND => 'Туніскі дынар';
 
   @override
+  String get currencyTJS => 'Таджыкскі самані';
+
+  @override
+  String get currencyTMT => 'Туркменскі манат';
+
+  @override
+  String get currencyTOP => 'Тонганская паанга';
+
+  @override
   String get currencyUGX => 'Угандыйскі шылінг';
 
   @override
@@ -342,16 +432,25 @@ class AppLocalizationsBe extends AppLocalizations {
   String get currencyUYU => 'Уругвайскі песа';
 
   @override
-  String get currencyVEF => 'Венесуэльскі балівар';
+  String get currencyVES => 'Венесуэльскі суверэнны балівар';
 
   @override
   String get currencyVND => 'В\'етнамскі донг';
+
+  @override
+  String get currencyVUV => 'Вануацкі вату';
+
+  @override
+  String get currencyWST => 'Самоанская тала';
 
   @override
   String get currencyYER => 'Еменскі рыял';
 
   @override
   String get currencyZMW => 'Замбійская квача';
+
+  @override
+  String get currencyZWG => 'Зімбабвійскае золата';
 
   @override
   String get currencySDG => 'Суданскі фунт';
@@ -367,6 +466,12 @@ class AppLocalizationsBe extends AppLocalizations {
 
   @override
   String get currencyIRR => 'Іранскі рыял';
+
+  @override
+  String get currencyGIP => 'Гібралтарскі фунт';
+
+  @override
+  String get currencyGNF => 'Гвінейскі франк';
 }
 
 /// The translations for Belarusian, as used in European Union (`be_EU`).
@@ -380,6 +485,12 @@ class AppLocalizationsBeEu extends AppLocalizationsBe {
   String get currencyEUR => 'Jeŭra';
 
   @override
+  String get currencyFJD => 'Fiĵijski dolar';
+
+  @override
+  String get currencyFKP => 'Funt Faklendskich astravoŭ';
+
+  @override
   String get currencyJPY => 'Japonskaja jena';
 
   @override
@@ -389,347 +500,446 @@ class AppLocalizationsBeEu extends AppLocalizationsBe {
   String get currencyAUD => 'Aŭstralijski dolar';
 
   @override
-  String get currencyCAD => 'Kanadski daliar';
+  String get currencyAWG => 'Arubsky floryn';
 
   @override
-  String get currencyCHF => 'Šviejcarski frank';
+  String get currencyCAD => 'Kanadski dolar';
 
   @override
-  String get currencyCNY => 'Kitajski juań';
+  String get currencyCHF => 'Švejcarsky frank';
 
   @override
-  String get currencyHKD => 'Hankonski daliar';
+  String get currencyCNY => 'Kitajski jušan';
 
   @override
-  String get currencyNZD => 'Novazielandski dolar';
+  String get currencyHKD => 'Gonkongski dolar';
 
   @override
-  String get currencySEK => 'Šviedskaja krona';
+  String get currencyNZD => 'Novazelandski dolar';
 
   @override
-  String get currencyKRW => 'Paŭdniovakarejskaja vona';
+  String get currencySEK => 'Švedskaja krona';
 
   @override
-  String get currencySGD => 'Sinhapurski daliar';
+  String get currencyKRW => 'Paŭdnjovakarejsky von';
 
   @override
-  String get currencyNOK => 'Narviežskaja krona';
+  String get currencySGD => 'Singapurski dolar';
 
   @override
-  String get currencyMXN => 'Mieksikanski piesa';
+  String get currencyNOK => 'Norvežskaja krona';
+
+  @override
+  String get currencyMXN => 'Meksykanskaje pesa';
 
   @override
   String get currencyINR => 'Indyjskaja rupija';
 
   @override
-  String get currencyRUB => 'Rasijski rubieĺ';
+  String get currencyRUB => 'Rasijski rubel';
 
   @override
-  String get currencyZAR => 'Paŭdniovaafrykanski rend';
+  String get currencyZAR => 'Paŭdnjovaafrykansky rend';
 
   @override
   String get currencyTRY => 'Tureckaja lira';
 
   @override
-  String get currencyBRL => 'Braziĺski real';
+  String get currencyBRL => 'Brazilski real';
 
   @override
-  String get currencyTWD => 'Novy tajvański daliar';
+  String get currencyBSD => 'Bahamsky dolar';
+
+  @override
+  String get currencyTWD => 'Tajvansky dolar';
 
   @override
   String get currencyDKK => 'Dackaja krona';
 
   @override
-  String get currencyPLN => 'Poĺski zloty';
+  String get currencyDJF => 'Ĵybutsky frank';
 
   @override
-  String get currencyTHB => 'Tajlandski bat';
+  String get currencyPLN => 'Polski zloty';
+
+  @override
+  String get currencyTHB => 'Tajsky bat';
 
   @override
   String get currencyIDR => 'Indanezijskaja rupija';
 
   @override
-  String get currencyHUF => 'Vienhierski forynt';
+  String get currencyHUF => 'Vengersky forynt';
 
   @override
   String get currencyCZK => 'Češskaja krona';
 
   @override
-  String get currencyILS => 'Izraiĺski šekieĺ';
+  String get currencyILS => 'Izrailski šekel';
 
   @override
-  String get currencyCLP => 'Čylijski piesa';
+  String get currencyCLP => 'Čylijskaje pesa';
 
   @override
-  String get currencyPHP => 'Filipinski piesa';
+  String get currencyPHP => 'Filipinskaje pesa';
 
   @override
-  String get currencyAED => 'Dyrcham Emirataŭ';
+  String get currencyAED => 'Dyrham AAĖ';
 
   @override
-  String get currencyCOP => 'Kalumbijski piesa';
+  String get currencyCOP => 'Kalumbijskaje pesa';
 
   @override
-  String get currencySAR => 'Saudaŭski ryjal';
+  String get currencySAR => 'Saudaŭski ryja';
 
   @override
-  String get currencyMYR => 'Malajzijski rynhit';
+  String get currencyMYR => 'Malajzijski rynggit';
 
   @override
-  String get currencyRON => 'Rumynski liej';
+  String get currencyRON => 'Rumynski lej';
 
   @override
-  String get currencyAFN => 'Aŭhanski afhani';
+  String get currencyAFN => 'Afgansky afgani';
 
   @override
-  String get currencyALL => 'Albanski liek';
+  String get currencyALL => 'Albansky lek';
 
   @override
-  String get currencyAOA => 'Angolska kvanza';
+  String get currencyAOA => 'Angolskaja kvanaza';
 
   @override
-  String get currencyDZD => 'Alžyrski dynar';
+  String get currencyANG => 'Niderlandsky antylsky gulden';
 
   @override
-  String get currencyARS => 'Arhientynski piesa';
+  String get currencyDZD => 'Alžyrsky dynar';
 
   @override
-  String get currencyAMD => 'Armianski dram';
+  String get currencyARS => 'Argencynskaje pesa';
 
   @override
-  String get currencyAZN => 'Azierbajdžanski manat';
+  String get currencyAMD => 'Armjansky dram';
+
+  @override
+  String get currencyAZN => 'Azerbydjanski manat';
 
   @override
   String get currencyBHD => 'Bachrejnski dynar';
 
   @override
-  String get currencyBDT => 'Banhladešskaja taka';
+  String get currencyBDT => 'Bangladešskaja taka';
 
   @override
-  String get currencyBBD => 'Barbadaski daliar';
+  String get currencyBBD => 'Barbadoski dolar';
 
   @override
-  String get currencyBYN => 'Bielaruski rubieĺ';
+  String get currencyBYN => 'Belarusky rubel';
 
   @override
-  String get currencyBZD => 'Bielizski daliar';
+  String get currencyBZD => 'Belizsky dolar';
 
   @override
-  String get currencyBMD => 'Biarmudski daliar';
+  String get currencyBMD => 'Bermudsky dolar';
 
   @override
-  String get currencyBTN => 'Butanski Nhultrum';
+  String get currencyBTN => 'Butansky ngultrum';
 
   @override
-  String get currencyBOB => 'Balivija Balivijana';
+  String get currencyBOB => 'Balivijskaje bolivijana';
 
   @override
-  String get currencyBAM => 'Kanviertoŭnaja marka Bosnii i Hiercahaviny';
+  String get currencyBAM => 'Kanvertavanaja marka Bosni i Hercagaviny';
 
   @override
-  String get currencyBWP => 'Batsvanskaja pula';
+  String get currencyBWP => 'Batsvananskaja pula';
 
   @override
-  String get currencyBND => 'Bruniej-Darussalamski daliar';
+  String get currencyBND => 'Brunejsky dolar';
 
   @override
-  String get currencyBGN => 'Balharski lieŭ';
+  String get currencyBGN => 'Balgarsky leŭ';
 
   @override
-  String get currencyBIF => 'Burundzijski frank';
+  String get currencyBIF => 'Burundyjsky frank';
 
   @override
-  String get currencyKHR => 'Kambadžyjski ryjeĺ';
+  String get currencyKHR => 'Kamboĵski ryel';
 
   @override
-  String get currencyKYD => 'Daliar Kajmanavych vyspaŭ';
+  String get currencyKMF => 'Kamorsky frank';
 
   @override
-  String get currencyXAF => 'Centraĺnaafrykanski frank KFA';
+  String get currencyKPW => 'Paŭnočnakarejsky von';
 
   @override
-  String get currencyXOF => 'Frank KFA UEMOA';
+  String get currencyKYD => 'Dolar Kajmanavy‍ch astravoŭ';
 
   @override
-  String get currencyCDF => 'Kanhaliezski frank';
+  String get currencyXAF => 'Centralnaafrykansky frank CFA';
 
   @override
-  String get currencyCRC => 'Kostarykanski kalon';
+  String get currencyXCD => 'Ushodnekaryby dolar';
 
   @override
-  String get currencyDOP => 'Piesa Daminikanskaj Respubliki';
+  String get currencyXOF => 'Frank CFA ZAĖVS';
 
   @override
-  String get currencyEGP => 'Jehipiecki funt';
+  String get currencyXPF => 'CFP frank';
 
   @override
-  String get currencyETB => 'Efiopski byr';
+  String get currencyCDF => 'Kangolezsky frank';
 
   @override
-  String get currencyGMD => 'Hambijski dalasi';
+  String get currencyCRC => 'Kosta-rykansky kalon';
 
   @override
-  String get currencyGEL => 'Hruzinski lary';
+  String get currencyCUP => 'Kubinskaje pesa';
 
   @override
-  String get currencyGHS => 'Hanski siadzi';
+  String get currencyCVE => 'Eskuda Kaba-Verde';
 
   @override
-  String get currencyGTQ => 'Hvatemaĺski kietsaĺ';
+  String get currencyDOP => 'Daminikanskaje pesa';
 
   @override
-  String get currencyGYD => 'Hajanski daliar';
+  String get currencyEGP => 'Egipetsky funt';
 
   @override
-  String get currencyHTG => 'Haicianski hurd';
+  String get currencyERN => 'Eritrejskaja nakfa';
+
+  @override
+  String get currencyETB => 'Efiopsky byr';
+
+  @override
+  String get currencyGMD => 'Gambijski dalasi';
+
+  @override
+  String get currencyGEL => 'Gruzinsky lary';
+
+  @override
+  String get currencyGHS => 'Gansky sedzi';
+
+  @override
+  String get currencyGTQ => 'Gvatemalski ketsal';
+
+  @override
+  String get currencyGYD => 'Gajansky dolar';
+
+  @override
+  String get currencyHTG => 'Gaicki gurd';
+
+  @override
+  String get currencyHNL => 'Gndurasskaja lempira';
 
   @override
   String get currencyISK => 'Islandskaja krona';
 
   @override
-  String get currencyJMD => 'Jamajski daliar';
+  String get currencyJMD => 'Jamajsky dolar';
 
   @override
-  String get currencyJOD => 'Jardanski dynar';
+  String get currencyJOD => 'Jardansky dynar';
 
   @override
-  String get currencyKZT => 'Kazachstanski tenhie';
+  String get currencyKZT => 'Kazakhsky tenge';
 
   @override
-  String get currencyKES => 'Kienijski šylinh';
+  String get currencyKES => 'Kenijski šyling';
 
   @override
   String get currencyKWD => 'Kuvejcki dynar';
 
   @override
-  String get currencyKGS => 'Kyrhyzski som';
+  String get currencyKGS => 'Kyrgyzsky som';
 
   @override
-  String get currencyUZS => 'Uzbiekski sum';
+  String get currencyUZS => 'Uzbeksky sum';
 
   @override
-  String get currencyLAK => 'Laoski kip';
+  String get currencyLAK => 'Laosky kip';
 
   @override
-  String get currencyLRD => 'Libieryjski daliar';
+  String get currencyLRD => 'Liberijski dolar';
 
   @override
-  String get currencyMKD => 'Makiedonski denar';
+  String get currencyLSL => 'Loci Lesota';
 
   @override
-  String get currencyMWK => 'Malavijskaja kvača';
+  String get currencyMKD => 'Makedonsky denar';
 
   @override
-  String get currencyMUR => 'Maŭrykijskaja rupija';
+  String get currencyMGA => 'Malagasijski aryjary';
 
   @override
-  String get currencyMDL => 'Maldaŭski liej';
+  String get currencyMWK => 'Malavijska kvača';
 
   @override
-  String get currencyMNT => 'Manholija Tuhryk';
+  String get currencyMUR => 'Maŭrykijska rupija';
 
   @override
-  String get currencyMAD => 'Marakanski dyrcham';
+  String get currencyMDL => 'Moldaŭsky lej';
 
   @override
-  String get currencyMZN => 'Mazambikski miecikal';
+  String get currencyMNT => 'Mongolsky tugryk';
 
   @override
-  String get currencyMMK => 'Mjanmanski kjat';
+  String get currencyMOP => 'Makaŭskaja pataka';
 
   @override
-  String get currencyNAD => 'Namibijski daliar';
+  String get currencyMRU => 'Maŭrytanskaja ugija';
 
   @override
-  String get currencyNPR => 'Niepaĺskaja rupija';
+  String get currencyMVR => 'Maldyŭskaja rufija';
 
   @override
-  String get currencyNIO => 'Nikarahua Kardoba';
+  String get currencyMAD => 'Marakansky dyrham';
 
   @override
-  String get currencyNGN => 'Nihieryjskaja najra';
+  String get currencyMZN => 'Mazambisky metykal';
 
   @override
-  String get currencyOMR => 'Amanski ryjal';
+  String get currencyMMK => 'Mjanmansky kjat';
+
+  @override
+  String get currencyNAD => 'Namibijski dolar';
+
+  @override
+  String get currencyNPR => 'Nepalskaja rupija';
+
+  @override
+  String get currencyNIO => 'Nikaragvanskaja kordaba';
+
+  @override
+  String get currencyNGN => 'Nigerijska najra';
+
+  @override
+  String get currencyOMR => 'Omanski ryyal';
 
   @override
   String get currencyPKR => 'Pakistanskaja rupija';
 
   @override
-  String get currencyPGK => 'Kina Papua-Novaj Hviniei';
+  String get currencyPGK => 'Kina Papua-Novaj Gvinei';
 
   @override
-  String get currencyPYG => 'Parahvaj Huarani';
+  String get currencyPYG => 'Paragvajski gvarani';
 
   @override
-  String get currencyPEN => 'Pieruanski soĺ';
+  String get currencyPAB => 'Panamskaja balboa';
 
   @override
-  String get currencyQAR => 'Katarski ryjal';
+  String get currencyPEN => 'Peruansky sol';
 
   @override
-  String get currencyRWF => 'Ruandyjski frank';
+  String get currencyQAR => 'Katarsky ryyal';
 
   @override
-  String get currencyRSD => 'Sierbski dynar';
+  String get currencyRWF => 'Ruandijski frank';
 
   @override
-  String get currencySCR => 'Siejšeĺskaja rupija';
+  String get currencyRSD => 'Serbsky dynar';
 
   @override
-  String get currencySOS => 'Samalijski šylinh';
+  String get currencySCR => 'Sejšelskaja rupija';
 
   @override
-  String get currencyLKR => 'Rupija Šry-Lanki';
+  String get currencySOS => 'Samalijsky šyling';
 
   @override
-  String get currencySRD => 'Surynamski daliar';
+  String get currencySBD => 'Dolar Salamonavy‍ch Astravoŭ';
 
   @override
-  String get currencySYP => 'Siryjskaja lira';
+  String get currencyLKR => 'Šry-lankijska rupija';
 
   @override
-  String get currencyTZS => 'Tanzanijski šylinh';
+  String get currencySRD => 'Surynamsky dolar';
 
   @override
-  String get currencyTTD => 'Daliar Trynidada i Tabaha';
+  String get currencySHP => 'Funt vostrova Svjatoj Aleny';
 
   @override
-  String get currencyTND => 'Tuniski dynar';
+  String get currencySLE => 'Sjera-leonsky leone';
 
   @override
-  String get currencyUGX => 'Uhandyjski šylinh';
+  String get currencySSP => 'Paŭdnjovasudasky funt';
 
   @override
-  String get currencyUAH => 'Ukrainskaja hryŭna';
+  String get currencySTN => 'Dobra San-Tome i Prynsypi';
 
   @override
-  String get currencyUYU => 'Uruhvajski piesa';
+  String get currencySVC => 'Salvadorsky kolon';
 
   @override
-  String get currencyVEF => 'Vieniesueĺski balivar';
+  String get currencySZL => 'Svazilendasky lilangens';
 
   @override
-  String get currencyVND => 'Vjetnamski donh';
+  String get currencySYP => 'Sirijskaja lira';
 
   @override
-  String get currencyYER => 'Jemienski ryjal';
+  String get currencyTZS => 'Tanzanijski šyling';
 
   @override
-  String get currencyZMW => 'Zambijskaja kvača';
+  String get currencyTTD => 'Dolar Trynidada i Tabaga';
 
   @override
-  String get currencySDG => 'Sudanski funt';
+  String get currencyTND => 'Tuniscy dynar';
 
   @override
-  String get currencyIQD => 'Irakski dynar';
+  String get currencyTJS => 'Taĵyksky samoni';
 
   @override
-  String get currencyLBP => 'Livanski funt';
+  String get currencyTMT => 'Turkmensky manat';
 
   @override
-  String get currencyLYD => 'Liviya Dinar';
+  String get currencyTOP => 'Tongskaja paanga';
 
   @override
-  String get currencyIRR => 'Iranski ryjal';
+  String get currencyUGX => 'Ugandzijski šyling';
+
+  @override
+  String get currencyUAH => 'Ukrainskaja gryvnia';
+
+  @override
+  String get currencyUYU => 'Urugvajskaje pesa';
+
+  @override
+  String get currencyVES => 'Venesujelscy balivar saberono';
+
+  @override
+  String get currencyVND => 'Vjetnamsky dong';
+
+  @override
+  String get currencyVUV => 'Vanuacky vatu';
+
+  @override
+  String get currencyWST => 'Samoanskaja tala';
+
+  @override
+  String get currencyYER => 'Jemenskі ryyal';
+
+  @override
+  String get currencyZMW => 'Zambijska kvača';
+
+  @override
+  String get currencyZWG => 'Zimbabvejskaje zolata';
+
+  @override
+  String get currencySDG => 'Sudansky funt';
+
+  @override
+  String get currencyIQD => 'Iraksky dynar';
+
+  @override
+  String get currencyLBP => 'Libansky funt';
+
+  @override
+  String get currencyLYD => 'Libijski dynar';
+
+  @override
+  String get currencyIRR => 'Iransky ryyal';
+
+  @override
+  String get currencyGIP => 'Gibaltarsky funt';
+
+  @override
+  String get currencyGNF => 'Gvinejsky frank';
 }

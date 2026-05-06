@@ -1,3 +1,7 @@
+# 1.9.0
+
+* Added 36 missing currencies based on ISO 4217
+
 # 1.8.0
 
 * Added missing currencies: Sudanese pound (SDG), Iraqi Dinar (IQD), Lebanese pound (LBP), Libyan Dinar (LYD), Iranian Rial (IRR).
