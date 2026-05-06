@@ -120,7 +120,10 @@ class AppLocalizationsRo extends AppLocalizations {
   String get currencyALL => 'Lek albanez';
 
   @override
-  String get currencyDZD => 'dinar algerian';
+  String get currencyAOA => 'Kwanza angoleză';
+
+  @override
+  String get currencyDZD => 'Dinar algerian';
 
   @override
   String get currencyARS => 'Peso argentinian';

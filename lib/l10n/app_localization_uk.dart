@@ -120,6 +120,9 @@ class AppLocalizationsUk extends AppLocalizations {
   String get currencyALL => 'Албанський лек';
 
   @override
+  String get currencyAOA => 'Ангольська кванза';
+
+  @override
   String get currencyDZD => 'Алжирський динар';
 
   @override

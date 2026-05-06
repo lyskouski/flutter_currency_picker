@@ -361,6 +361,12 @@ abstract class AppLocalizations {
   /// **'Albanian Lek'**
   String get currencyALL;
 
+  /// No description provided for @currencyAOA.
+  ///
+  /// In en, this message translates to:
+  /// **'Angolan Kwanza'**
+  String get currencyAOA;
+
   /// No description provided for @currencyDZD.
   ///
   /// In en, this message translates to:

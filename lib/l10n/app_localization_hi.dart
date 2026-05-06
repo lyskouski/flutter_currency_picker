@@ -120,6 +120,9 @@ class AppLocalizationsHi extends AppLocalizations {
   String get currencyALL => 'अल्बानियाई लेक';
 
   @override
+  String get currencyAOA => 'अंगोलाई क्वांज़ा';
+
+  @override
   String get currencyDZD => 'अल्जीरियाई दीनार';
 
   @override

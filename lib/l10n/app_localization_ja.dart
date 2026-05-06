@@ -120,6 +120,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get currencyALL => 'アルバニア レク';
 
   @override
+  String get currencyAOA => 'アンゴラ・クワンザ';
+
+  @override
   String get currencyDZD => 'アルジェリア ディナール';
 
   @override

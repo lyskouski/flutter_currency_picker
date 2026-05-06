@@ -120,6 +120,9 @@ class AppLocalizationsFa extends AppLocalizations {
   String get currencyALL => 'لک آلبانی';
 
   @override
+  String get currencyAOA => 'کوانزای آنگولا';
+
+  @override
   String get currencyDZD => 'دینار الجزایر';
 
   @override

@@ -120,6 +120,9 @@ class AppLocalizationsUz extends AppLocalizations {
   String get currencyALL => 'Alban leki';
 
   @override
+  String get currencyAOA => 'Angola kvanzasi';
+
+  @override
   String get currencyDZD => 'Jazoir dinori';
 
   @override

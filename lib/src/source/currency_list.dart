@@ -418,6 +418,17 @@ List<Currency> currencyList(AppLocalizations labels) {
       symbolOnLeft: false,
     ),
     (
+      code: 'AOA',
+      name: CurrencyDefaults.labels.currencyAOA,
+      symbol: 'Kz',
+      flag: '🇦🇴',
+      decimalDigits: 2,
+      thousandsSeparator: '.',
+      decimalSeparator: ',',
+      hasSpace: true,
+      symbolOnLeft: true,
+    ),
+    (
       code: 'DZD',
       name: CurrencyDefaults.labels.currencyDZD,
       symbol: 'دج',

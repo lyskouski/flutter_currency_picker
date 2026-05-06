@@ -120,6 +120,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get currencyALL => '阿尔巴尼亚列克';
 
   @override
+  String get currencyAOA => '安哥拉宽扎';
+
+  @override
   String get currencyDZD => '阿尔及利亚第纳尔';
 
   @override
@@ -480,6 +483,9 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
 
   @override
   String get currencyALL => '阿爾巴尼亞列克';
+
+  @override
+  String get currencyAOA => '安哥拉寬扎';
 
   @override
   String get currencyDZD => '阿爾及利亞第納爾';

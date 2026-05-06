@@ -120,7 +120,10 @@ class AppLocalizationsTr extends AppLocalizations {
   String get currencyALL => 'Arnavutluk Leki';
 
   @override
-  String get currencyDZD => 'Cezayir dinarı';
+  String get currencyAOA => 'Angola Kvanzası';
+
+  @override
+  String get currencyDZD => 'Cezayir Dinarı';
 
   @override
   String get currencyARS => 'Arjantin Pesosu';

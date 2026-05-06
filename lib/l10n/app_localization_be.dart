@@ -120,6 +120,9 @@ class AppLocalizationsBe extends AppLocalizations {
   String get currencyALL => 'Албанскі лек';
 
   @override
+  String get currencyAOA => 'Ангольская кванза';
+
+  @override
   String get currencyDZD => 'Алжырскі дынар';
 
   @override
@@ -480,6 +483,9 @@ class AppLocalizationsBeEu extends AppLocalizationsBe {
 
   @override
   String get currencyALL => 'Albanski liek';
+
+  @override
+  String get currencyAOA => 'Angolska kvanza';
 
   @override
   String get currencyDZD => 'Alžyrski dynar';

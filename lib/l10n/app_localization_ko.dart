@@ -120,6 +120,9 @@ class AppLocalizationsKo extends AppLocalizations {
   String get currencyALL => '알바니아 렉';
 
   @override
+  String get currencyAOA => '앙골라 콴자';
+
+  @override
   String get currencyDZD => '알제리 디나르';
 
   @override
