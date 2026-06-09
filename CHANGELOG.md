@@ -1,3 +1,7 @@
+# 1.10.0
+
+* Added Georgian (KA-GE) and Russian (RU) localizations
+
 # 1.9.0
 
 * Added 36 missing currencies based on ISO 4217
